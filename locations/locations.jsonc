@@ -1,0 +1,3692 @@
+[       
+  {
+    "name": "Nature Orb",
+    "access_rules": [
+      "[light]"
+    ],
+    "sections": [
+      {
+        "name": "Nature Orb",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 80,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Forest Night",
+    "access_rules": [
+      "[light],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 144,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "HP Up West Spectral",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 176,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Forest Night",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 208,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Spectral",
+    "access_rules": [          
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 208,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "MP Up Cave",
+    "access_rules": [
+      "slide"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 208,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "HP Up Cave",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 240,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Toxic Strike",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Toxic Strike",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 272,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Piko Hammer",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Piko Hammer",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 272,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "MP Up Forest Cave",
+    "access_rules": [
+      "slide"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 304,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Tough Skin",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Tough Skin",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 336,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Cave",
+    "access_rules": [
+      "bomb,slide"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 368,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "HP Up North Forest",
+    "access_rules": [
+      "bomb,slide"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 368,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Wall Jump",
+    "access_rules": [
+      "slide,slippers","slide,airjump","slide,walljump"
+    ],
+    "sections": [
+      {
+        "name": "Wall Jump",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 368,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Mid Forest",
+    "access_rules": [
+      "airjump","slippers,walljump"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 400,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "MP Up Mid Spectral",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 400,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "HP Up Mid Spectral",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 432,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Carrot Bomb",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Carrot Bomb",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 464,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Def Trade",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Def Trade",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 496,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Light Orb",
+    "access_rules": [
+      "bomb,slide,airjump"
+    ],
+    "sections": [
+      {
+        "name": "Light Orb",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 496,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "HP Up Forest Post Cocoa",
+    "access_rules": [
+      "bomb","hammer"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 528,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Charge Ring",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Charge Ring",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 592,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "Arm Strength",
+    "access_rules": [
+      "hammer,airdash", "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Arm Strength",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 624,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Regen Up East Forest",
+    "access_rules": [
+      "airjump","hammer,airdash"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 624,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Mana Wager",
+    "access_rules": [
+      "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Mana Wager",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 624,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "MP Up East Forest",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 624,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Pack Up East Forest",
+    "access_rules": [
+      "hammer,slide", "bomb,slide"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 624,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "MP Up Cicini",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 624,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "MP Up Northeast Forest",
+    "access_rules": [
+      "airjump,slide,bomb","hammer,airdash,slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 656,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Egg Forest Night Aruraune",
+    "access_rules": [
+      "[light],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 144,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Egg Spectral West",
+    "access_rules": [
+      "hammer,airdash,slide", "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 208,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Egg Cave Under Hammer",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 272,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Egg Forest Night East",
+    "access_rules": [
+      "[light],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 272,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Egg Spectral Slide",
+    "access_rules": [
+      "slide"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 464,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Egg Cave Cocoa",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 496,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Egg Forest Northeast Ledge",
+    "access_rules": [
+      "airjump", "hammer,airdash"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 560,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Egg Forest Northeast Pedestal",
+    "access_rules": [
+      "airjump","hammer,airdash"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 720,
+        "y": 144
+      }
+    ]
+  },
+
+
+
+  
+  {
+    "name": "Survival",
+    "access_rules": [
+      "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Survival",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 80,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Health Wager",
+    "access_rules": [
+      "airjump,hammer,airdash"
+    ],
+    "sections": [
+      {
+        "name": "Health Wager",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 176,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Beach Cave",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 176,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "MP Up Graveyard Warp",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 208,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "HP Up Graveyard",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 208,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Sunny Beam",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Sunny Beam",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 240,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "MP Up Upper Graveyard",
+    "access_rules": [
+      "airjump,bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 304,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Auto Earrings",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Auto Earrings",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 304,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Health Plus",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Health Plus",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 336,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "MP Up Pyramid Dark Room",
+    "access_rules": [
+      "[light],bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 368,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Crisis Boost",
+    "access_rules": [
+      "slippers,airjump"
+    ],
+    "sections": [
+      {
+        "name": "Crisis Boost",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 368,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Graveyard",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 368,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "HP Up Inner Pyramid",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 400,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "HP Up Beach",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 432,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Pyramid",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 464,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Pyramid",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 464,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Armored",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Armored",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 496,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Chaos Rod",
+    "access_rules": [
+      "slide,airjump"
+    ],
+    "sections": [
+      {
+        "name": "Chaos Rod",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 496,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Beach",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 528,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Top Form",
+    "access_rules": [
+      "airjump,hammer,airdash", "airjump,walljump"
+    ],
+    "sections": [
+      {
+        "name": "Top Form",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 560,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "HP Up Pyramid Entrance",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 560,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "MP Up Pyramid Bomb Block Room",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 592,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Air Dash",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Air Dash",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 624,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Pyramid",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 624,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Pure Love",
+    "access_rules": [
+      "airjump,hammer,airdash,slide,bomb", "airjump,walljump,slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pure Love",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 656,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "MP Up Beach Tunnel",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 656,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Hourglass",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Hourglass",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 656,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "HP Up Sky Island",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 688,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Sky Island",
+    "access_rules": [
+      "airjump,hammer,airdash,bomb", "airjump,walljump,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 720,
+        "y": 48
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Sky Island",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 752,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "MP Up Beach Pillar",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 752,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Egg Beach to Aquarium",
+    "access_rules": [
+      "[water],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 112,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Egg Graveyard Near Library",
+    "access_rules": [
+      "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 304,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Egg Pyramid Beach",
+    "access_rules": [
+      "bomb","airjump","hammer,airdash"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 496,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Egg Pyramid Lower",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 560,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Sky Town",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 688,
+        "y": 144
+      }
+    ]
+  },
+
+
+
+
+  {
+    "name": "Def Grow",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Def Grow",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 112,
+        "y": 560
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Park",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 144,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Atk Trade",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Trade",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 144,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "HP Up Park",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 144,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Rabi Slippers",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Rabi Slippers",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 176,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Park",
+    "access_rules": [
+      "slide"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 176,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Health Surge",
+    "access_rules": [
+      "[light],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Health Surge",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 208,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "MP Up Sky Bridge",
+    "access_rules": [
+      "bomb,slide"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 240,
+        "y": 112
+      }
+    ]
+  },
+  {
+    "name": "MP Up UPRPRC HQ",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 272,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "MP Up Park",
+    "access_rules": [
+      "slippers","slide","airjump","airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 272,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Hex Cancel",
+    "access_rules": [
+      "[light],slide,bomb,airjump", "[light],slide,bomb,airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Hex Cancel",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 304,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "HP Up Sky Bridge",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 304,
+        "y": 112
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Sky Bridge",
+    "access_rules": [
+      "[light],slide,bomb,airjump", "[light],slide,bomb,airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 336,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Sky Bridge",
+    "access_rules": [
+      "airjump","airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 368,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Lucky Seven",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Lucky Seven",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 432,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Vanilla",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 528,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Hammer Wave",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Hammer Wave",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 592,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Atk Up West Ravine",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 592,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "HP Up South Ravine",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 624,
+        "y": 560
+      }
+    ]
+  },
+  {
+    "name": "Atk Up North Ravine",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 656,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "HP Up Mid Ravine",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 656,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "MP Up Ravine",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 688,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Ravine",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 688,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Mana Surge",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Mana Surge",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 720,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "Egg Park Spikes",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 112,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "Egg Park Green Kotri",
+    "access_rules": [
+      "airjump","airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 144,
+        "y": 560
+      }
+    ]
+  },
+  {
+    "name": "Egg UPRPRC Base",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 176,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Sky Bridge Warp",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 272,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "Egg Sky Bridge by Vanilla",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 432,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Egg Ravine Above Chocolate",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 592,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "Egg Ravine Mid",
+    "access_rules": [
+      "bomb,slide"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 656,
+        "y": 400
+      }
+    ]
+  },
+
+
+
+
+  {
+    "name": "HP Up Palace",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 80,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Water Orb",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Water Orb",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 80,
+        "y": 112
+      }
+    ]
+  },
+  {
+    "name": "HP Up West Aquarium",
+    "access_rules": [
+      "[light],[water],bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 80,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Mana Plus",
+    "access_rules": [
+      "[light],[water]"
+    ],
+    "sections": [
+      {
+        "name": "Mana Plus",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 112,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Palace",
+    "access_rules": [
+      "fire"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 144,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Snowland",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 176,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Palace",
+    "access_rules": [
+      "[light],airdash,hammer", "[light],airjump"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 208,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Stamina Plus",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Stamina Plus",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 208,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "MP Up Palace",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 240,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Self Defense",
+    "access_rules": [
+      "[water],slide"
+    ],
+    "sections": [
+      {
+        "name": "Self Defense",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 272,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "HP Up Upper Aquarium",
+    "access_rules": [
+      "water,bomb,walljump,airjump"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 304,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Gold Carrot",
+    "access_rules": [
+      "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Gold Carrot",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 336,
+        "y": 112
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Upper Aquarium",
+    "access_rules": [
+      "water,bomb,walljump,airjump"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 336,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Icy Summit",
+    "access_rules": [
+      "airjump","hammer,airdash"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 336,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Icy Summit",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 432,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Mid Aquarium",
+    "access_rules": [
+      "[water]"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 464,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "MP Up Icy Summit",
+    "access_rules": [
+      "slippers","airjump","walljump","slide"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 528,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "MP Up Snowland",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 528,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Quick Barrette",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Quick Barrette",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 560,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "HP Up Icy Summit",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 560,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Super Carrot",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Super Carrot",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 560,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Snowland Water",
+    "access_rules": [
+      "[water]"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 592,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "MP Up Aquarium",
+    "access_rules": [
+      "[water],bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 688,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "HP Up Snowland",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 720,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Carrot Boost",
+    "access_rules": [
+      "[water]"
+    ],
+    "sections": [
+      {
+        "name": "Carrot Boost",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 752,
+        "y": 432
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Aquarium",
+    "access_rules": [
+      "[water],slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 752,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Aquarium",
+    "access_rules": [
+      "[water],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 752,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Snowland to Evernight",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 112,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Egg Palace Bridge",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 208,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Egg Aquarium",
+    "access_rules": [
+      "[water]"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 240,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Egg Palace Wall",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 240,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Egg Snowland Warp",
+    "access_rules": [
+      "slide,bomb,slippers", "airjump", "airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 336,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Egg Icy Summit Nixie",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 400,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Egg Icy Summit Warp",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 592,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Egg Snowland Lake",
+    "access_rules": [
+      "water", "[water],airjump", "[water],walljump"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 624,
+        "y": 400
+      }
+    ]
+  },
+
+
+
+
+  {
+    "name": "Regen Up Northwest Riverbank",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 80,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Riverbank",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 80,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "MP Up Southwest Riverbank",
+    "access_rules": [
+      "bomb,slide", "bomb,airjump", "bomb,airdash,hammer,slippers"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 112,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Atk Grow",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Atk Grow",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 144,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Regen Up South Riverbank",
+    "access_rules": [
+      "[light],[water],bomb,slide", "[light],[water],bomb,airjump", "[light],[water],bomb,airdash,hammer,slippers"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 144,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Riverbank Pit",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 272,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Bunny Whirl",
+    "access_rules": [
+      "whirl,hammer", "airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Bunny Whirl",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 304,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Explode Shot",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Explode Shot",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 304,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "MP Up Mid Riverbank",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 304,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Atk Up East Riverbank",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 368,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Spike Barrier",
+    "access_rules": [
+      "airjump","airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Spike Barrier",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 368,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Frame Cancel",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Frame Cancel",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 400,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "HP Up Lab Slide Tunnel",
+    "access_rules": [
+      "slide"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 400,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "MP Up Lab",
+    "access_rules": [
+      "slide"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 432,
+        "y": 464
+      }
+    ]
+  },
+  {
+    "name": "HP Up Riverbank",
+    "access_rules": [
+      "bomb","hammer"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 432,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "MP Up Evernight",
+    "access_rules": [
+      "[light],slide,airjump,slippers","[light],slide,airjump,airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 464,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "HP Up Evernight",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 496,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "HP Up Lab Pit",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 528,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Sliding Powder",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Sliding Powder",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 528,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Evernight UPRPRC",
+    "access_rules": [
+      "slide,bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 560,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Cashback",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Cashback",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 560,
+        "y": 368
+      }
+    ]
+  },
+  {
+    "name": "Plus Necklace",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Plus Necklace",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 560,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Weaken",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Weaken",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 592,
+        "y": 400
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Lab Computer",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 624,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Pack Up South Evernight",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 624,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Pack Up North Evernight",
+    "access_rules": [
+      "airdash,hammer", "airjump"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 624,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Regen Up Evernight",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 656,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Evernight",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 688,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "Atk Up East Lab",
+    "access_rules": [
+      "bomb,airjump","bomb,airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 752,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Lab",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 784,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Hammer Roll",
+    "access_rules": [
+      "hammer,whirl"
+    ],
+    "sections": [
+      {
+        "name": "Hammer Roll",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 784,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Egg Riverbank Spider Spike",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 144,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg Riverbank Wall",
+    "access_rules": [
+      "airjump", "airdash,hammer", "slide"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 304,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Egg Lab",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 496,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Evernight Mid",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 624,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Egg Evernight Saya",
+    "access_rules": [
+      "airjump", "airdash,hammer,slippers"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 752,
+        "y": 112
+      }
+    ]
+  },
+
+
+
+  
+  {
+    "name": "Egg Town",
+    "access_rules": [
+      "airjump,slippers"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "rrt",
+        "x": 464,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Town Gift Items",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Speed Boost",
+        "item_count": 1
+      },
+      {
+        "name": "Bunny Strike",
+        "item_count": 1,
+        "access_rules": [
+          "slide"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "rrt",
+        "x": 336,
+        "y": 272
+      }
+    ]
+  },
+  
+  
+  
+  
+  {
+    "name": "Egg Plurk Cats",
+    "access_rules": [
+      "[light]"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "p",
+        "x": 272,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Plurk Cave",
+    "access_rules": [
+      "[light],bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "p",
+        "x": 272,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Egg Plurk East",
+    "access_rules": [
+      "[light]"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "p",
+        "x": 496,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "P Hairpin",
+    "access_rules": [
+      "[light]"
+    ],
+    "sections": [
+      {
+        "name": "P Hairpin",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "p",
+        "x": 368,
+        "y": 112
+      }
+    ]
+  },
+
+
+
+
+  {
+    "name": "HP Up Volcanic",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 176,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Fire Orb",
+    "access_rules": [
+      "fire","bomb"
+    ],
+    "sections": [
+      {
+        "name": "Fire Orb",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 528,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Volcanic",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 560,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Egg Volcanic Bomb Bunnies",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 208,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Egg Volcanic Fire Orb",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 528,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Egg Volcanic Northeast",
+    "access_rules": [
+      "airjump", "airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 592,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Egg Volcanic Big Drop",
+    "access_rules": [
+      "airjump","airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 752,
+        "y": 496
+      }
+    ]
+  },
+
+
+
+
+  {
+    "name": "Regen Up Cyberspace",
+    "access_rules": [
+      "bomb,airjump,slippers","bomb,airdash,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Regen Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 240,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Pack Up Cyberspace",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Pack Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 272,
+        "y": 208
+      }
+    ]
+  },
+  {
+    "name": "Air Jump",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Air Jump",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 432,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "HP Up Cyberspace",
+    "access_rules": [
+      "slide,bomb,airjump,slippers"
+    ],
+    "sections": [
+      {
+        "name": "HP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 528,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Atk Up Cyberspace",
+    "access_rules": [
+      "bomb"
+    ],
+    "sections": [
+      {
+        "name": "Atk Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 560,
+        "y": 176
+      }
+    ]
+  },
+  {
+    "name": "MP Up Cyberspace",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "MP Up",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 656,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg System Interior",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 656,
+        "y": 336
+      }
+    ]
+  }
+]

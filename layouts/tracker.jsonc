@@ -1,0 +1,118 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "shared_item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [            
+            {
+              "title": "Southern Woodland",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sw"
+                ]
+              }
+            },
+            {
+              "title": "Western Coast",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wc"
+                ]
+              }
+            },
+            {
+              "title": "Island Core",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ic"
+                ]
+              }
+            },
+            {
+              "title": "Northern Tundra",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "nt"
+                ]
+              }
+            },
+            {
+              "title": "Eastern Highlands",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eh"
+                ]
+              }
+            },
+            {
+              "title": "Rabi Rabi Town",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "rrt"
+                ]
+              }
+            },
+            {
+              "title": "Plurkwood",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "p"
+                ]
+              }
+            },
+            {
+              "title": "Subterranean Area",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sa"
+                ]
+              }
+            },
+            {
+              "title": "System Interior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "si"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

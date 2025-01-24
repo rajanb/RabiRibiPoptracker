@@ -1,0 +1,148 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Piko Hammer",
+    "type": "toggle",
+    "img": "images/items/piko_hammer.png",
+    "codes": "hammer"
+  },
+  {
+    "name": "Carrot Bomb",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "bomb"
+  },
+  {
+    "name": "Sliding Powder",
+    "type": "toggle",
+    "img": "images/items/sliding_powder.png",
+    "codes": "slide"
+  },
+  {
+    "name": "Rabi Slippers",
+    "type": "toggle",
+    "img": "images/items/rabi_slippers.png",
+    "codes": "slippers"
+  },
+  {
+    "name": "Air Jump",
+    "type": "toggle",
+    "img": "images/items/air_jump.png",
+    "codes": "airjump"
+  },
+  {
+    "name": "Air Dash",
+    "type": "toggle",
+    "img": "images/items/air_dash.png",
+    "codes": "airdash"
+  },
+  {
+    "name": "Wall Jump",
+    "type": "toggle",
+    "img": "images/items/wall_jump.png",
+    "codes": "walljump"
+  },
+  {
+    "name": "Light Orb",
+    "type": "toggle",
+    "img": "images/items/light_orb.png",
+    "codes": "light"
+  },
+  {
+    "name": "Water Orb",
+    "type": "toggle",
+    "img": "images/items/water_orb.png",
+    "codes": "water"
+  },
+  {
+    "name": "Fire Orb",
+    "type": "toggle",
+    "img": "images/items/fire_orb.png",
+    "codes": "fire"
+  },
+  {
+    "name": "Bunny Whirl",
+    "type": "toggle",
+    "img": "images/items/bunny_whirl.png",
+    "codes": "whirl"
+  },
+  {
+    "name": "Hammer Roll",
+    "type": "toggle",
+    "img": "images/items/hammer_roll.png",
+    "codes": "roll"
+  },
+
+  {
+    "name": "HP Up",
+    "type": "consumable",
+    "img": "images/items/health_up.png",
+    "max_quantity": 25,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "hp"
+  },
+  {
+    "name": "MP Up",
+    "type": "consumable",
+    "img": "images/items/mana_up.png",
+    "max_quantity": 25,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "mp"
+  },
+  {
+    "name": "Regen Up",
+    "type": "consumable",
+    "img": "images/items/regen_up.png",
+    "max_quantity": 15,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "regen"
+  },
+  {
+    "name": "Pack Up",
+    "type": "consumable",
+    "img": "images/items/pack_up.png",
+    "max_quantity": 15,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "pack"
+  },
+  {
+    "name": "Atk Up",
+    "type": "consumable",
+    "img": "images/items/attack_up.png",
+    "max_quantity": 20,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "atk"
+  },
+  {
+    "name": "Easter Egg",
+    "type": "consumable",
+    "img": "images/items/easter_egg.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "egg"
+  }
+]
