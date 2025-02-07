@@ -1,0 +1,150 @@
+[
+    {
+        "name": "Knowledge",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "knowledge",
+        "stages": [
+            {
+                "name": "Basic",
+                "img": "images/options/basic.png"
+            },
+            {
+                "name": "Intermediate",
+                "img": "images/options/intermediate.png"
+            },
+            {
+                "name": "Advanced",
+                "img": "images/options/advanced.png"
+            }
+        ]
+    },
+    {
+        "name": "Trick Difficulty",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "difficulty",
+        "stages": [
+            {
+                "name": "Normal",
+                "img": "images/options/normal.png"
+            },
+            {
+                "name": "Hard",
+                "img": "images/options/hard.png"
+            },
+            {
+                "name": "V Hard",
+                "img": "images/options/vhard.png"
+            },
+            {
+                "name": "Stupid",
+                "img": "images/options/stupid.png"
+            }
+        ]
+    },
+    {
+        "name": "Block Clips",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "block_clips",
+        "stages": [
+            {
+                "name": "Disabled",
+                "img": "images/options/false.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/options/true.png"
+            }
+        ]
+    },
+    {
+        "name": "Semisolid Clips",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "semisolid_clips",
+        "stages": [
+            {
+                "name": "Disabled",
+                "img": "images/options/false.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/options/true.png"
+            }
+        ]
+    },
+    {
+        "name": "Zips",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "zips",
+        "stages": [
+            {
+                "name": "Disabled",
+                "img": "images/options/false.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/options/true.png"
+            }
+        ]
+    },
+    {
+        "name": "Darkness",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "darkness",
+        "stages": [
+            {
+                "name": "Disabled",
+                "img": "images/options/false.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/options/true.png"
+            }
+        ]
+    },
+    {
+        "name": "Underwater",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "underwater",
+        "stages": [
+            {
+                "name": "Disabled",
+                "img": "images/options/false.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/options/true.png"
+            }
+        ]
+    },
+    {
+        "name": "Carrot Shooter Logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "carrot_shooter_logic",
+        "stages": [
+            {
+                "name": "Disabled",
+                "img": "images/options/false.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/options/true.png"
+            }
+        ]
+    }
+]

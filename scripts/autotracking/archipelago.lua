@@ -77,8 +77,28 @@ function incrementItem(item_code, item_type, multiplier)
 end
 
 -- apply everything needed from slot_data, called from onClear
+
+map_transition_order = {
+	[1] = 0,
+	[2] = 1,
+	[3] = 2,
+	[4] = 3,
+	[5] = 4,
+	[6] = 5,
+	[7] = 6,
+	[8] = 7,
+	[9] = 8,
+	[10] = 9,
+	[11] = 10,
+	[12] = 11,
+	[13] = 12
+}
+
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	for k,v in pairs(slot_data["map_transition_shuffle_order"]) do
+		map_transition_order[k] = v
+	end
 end
 
 -- called right after an AP slot is connected

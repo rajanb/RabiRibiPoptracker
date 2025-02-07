@@ -22,7 +22,8 @@
                 "walljump",
                 "slide",
                 "water",
-                "whirl"
+                "whirl",
+                "strike"
               ],
               [
                 "bomb",
@@ -30,7 +31,8 @@
                 "airdash",
                 "fire",
                 "light",
-                "roll"
+                "roll",
+                "speed"
               ],
               [
                 "hp",
@@ -39,6 +41,13 @@
                 "pack",
                 "atk",
                 "egg"
+              ],
+              [
+                "beam",
+                "rod",
+                "staff",
+                "shot",
+                "shooter"
               ]
             ]
           }

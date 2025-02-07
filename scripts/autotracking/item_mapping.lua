@@ -5,6 +5,7 @@ BASE_ITEM_ID = 8350438193300
 ITEM_MAPPING = {
 	[BASE_ITEM_ID + 0x01] = { {"airdash"} },
 	[BASE_ITEM_ID + 0x02] = { {"airjump"} },
+	[BASE_ITEM_ID + 0x04] = { {"strike"} },
 	[BASE_ITEM_ID + 0x05] = { {"whirl"} },
 	[BASE_ITEM_ID + 0x06] = { {"bomb"} },
 	[BASE_ITEM_ID + 0x09] = { {"fire"} },
@@ -13,8 +14,15 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 0x10] = { {"hammer"} },
 	[BASE_ITEM_ID + 0x13] = { {"slippers"} },
 	[BASE_ITEM_ID + 0x14] = { {"slide"} },
+	[BASE_ITEM_ID + 0x15] = { {"speed"} },
 	[BASE_ITEM_ID + 0x18] = { {"walljump"} },
 	[BASE_ITEM_ID + 0x19] = { {"water"} },
+
+	[BASE_ITEM_ID + 0x1A] = { {"beam"} },
+	[BASE_ITEM_ID + 0x1B] = { {"rod"} },
+	[BASE_ITEM_ID + 0x1C] = { {"staff"} },
+	[BASE_ITEM_ID + 0x1D] = { {"shot"} },
+	[BASE_ITEM_ID + 0x1E] = { {"shooter"} },
 
 	[BASE_ITEM_ID + 0x3E] = { {"atk"} },
 	[BASE_ITEM_ID + 0x3F] = { {"egg"} },
@@ -22,6 +30,5 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 0x42] = { {"mp"} },
 	[BASE_ITEM_ID + 0x44] = { {"pack"} },
 	[BASE_ITEM_ID + 0x45] = { {"regen"} },
-
 
 }

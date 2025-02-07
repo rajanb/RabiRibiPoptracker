@@ -72,6 +72,18 @@
     "img": "images/items/hammer_roll.png",
     "codes": "roll"
   },
+  {
+    "name": "Speed Boost",
+    "type": "toggle",
+    "img": "images/items/speed_boost.png",
+    "codes": "speed"
+  },
+  {
+    "name": "Bunny Strike",
+    "type": "toggle",
+    "img": "images/items/bunny_strike.png",
+    "codes": "strike"
+  },
 
   {
     "name": "HP Up",
@@ -144,5 +156,36 @@
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "egg"
+  },
+
+  {
+    "name": "Sunny Beam",
+    "type": "toggle",
+    "img": "images/items/sunny_beam.png",
+    "codes": "beam"
+  },
+  {
+    "name": "Chaos Rod",
+    "type": "toggle",
+    "img": "images/items/chaos_rod.png",
+    "codes": "rod"
+  },
+  {
+    "name": "Healing Staff",
+    "type": "toggle",
+    "img": "images/items/healing_staff.png",
+    "codes": "staff"
+  },
+  {
+    "name": "Explode Shot",
+    "type": "toggle",
+    "img": "images/items/explode_shot.png",
+    "codes": "shot"
+  },
+  {
+    "name": "Carrot Shooter",
+    "type": "toggle",
+    "img": "images/items/carrot_shooter.png",
+    "codes": "shooter"
   }
 ]

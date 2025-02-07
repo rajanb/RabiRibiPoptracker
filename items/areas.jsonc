@@ -1,0 +1,722 @@
+[
+  {
+    "name": "FOREST_START",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_START"
+  },
+  {
+    "name": "FOREST_EAST_ABOVE_SPRING",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_EAST_ABOVE_SPRING"
+  },
+  {
+    "name": "FOREST_COCOA_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_COCOA_ROOM"
+  },
+  {
+    "name": "FOREST_UPPER_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_UPPER_EAST"
+  },
+  {
+    "name": "FOREST_LIGHT_ORB_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_LIGHT_ORB_ROOM"
+  },
+  {
+    "name": "FOREST_UPPER_EAST_EGG_LEDGE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_UPPER_EAST_EGG_LEDGE"
+  },
+  {
+    "name": "FOREST_UPPER_EAST_EGG_LEDGE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_UPPER_EAST_EGG_LEDGE"
+  },
+  {
+    "name": "FOREST_NORTH_HP_UP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_NORTH_HP_UP_ROOM"
+  },
+  {
+    "name": "FOREST_UPPER_RIVERBANK_EXIT",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_UPPER_RIVERBANK_EXIT"
+  },
+  {
+    "name": "FOREST_LOWER_RIVERBANK_EXIT",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_LOWER_RIVERBANK_EXIT"
+  },
+  {
+    "name": "FOREST_NIGHT_ATK_UP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_NIGHT_ATK_UP_ROOM"
+  },
+  {
+    "name": "FOREST_NIGHT_TOXIC_STRIKE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_NIGHT_TOXIC_STRIKE"
+  },
+  {
+    "name": "FOREST_NIGHT_WEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_NIGHT_WEST"
+  },
+  {
+    "name": "FOREST_NIGHT_NORTH_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FOREST_NIGHT_NORTH_EAST"
+  },
+  {
+    "name": "CAVE_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "CAVE_ENTRANCE"
+  },
+  {
+    "name": "CAVE_COCOA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "CAVE_COCOA"
+  },
+  {
+    "name": "SPECTRAL_UPPER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_UPPER"
+  },
+  {
+    "name": "SPECTRAL_WARP",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_WARP"
+  },
+  {
+    "name": "SPECTRAL_CICINI_LEDGE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_CICINI_LEDGE"
+  },
+  {
+    "name": "SPECTRAL_CICINI_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_CICINI_ROOM"
+  },
+  {
+    "name": "SPECTRAL_MID",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_MID"
+  },
+  {
+    "name": "SPECTRAL_WEST_EGG_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_WEST_EGG_ROOM"
+  },
+  {
+    "name": "SPECTRAL_WEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SPECTRAL_WEST"
+  },
+  {
+    "name": "BEACH_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "BEACH_MAIN"
+  },
+  {
+    "name": "BEACH_FOREST_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "BEACH_FOREST_ENTRANCE"
+  },
+  {
+    "name": "BEACH_UNDERWATER_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "BEACH_UNDERWATER_ENTRANCE"
+  },
+  {
+    "name": "BEACH_VOLCANIC_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "BEACH_VOLCANIC_ENTRANCE"
+  },
+  {
+    "name": "PYRAMID_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PYRAMID_MAIN"
+  },
+  {
+    "name": "PYRAMID_WARP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PYRAMID_WARP_ROOM"
+  },
+  {
+    "name": "PYRAMID_HOURGLASS_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PYRAMID_HOURGLASS_ROOM"
+  },
+  {
+    "name": "PYRAMID_LOWER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PYRAMID_LOWER"
+  },
+  {
+    "name": "PYRAMID_CHAOS_ROD_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PYRAMID_CHAOS_ROD_ROOM"
+  },
+  {
+    "name": "PYRAMID_SOUTHWEST_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PYRAMID_SOUTHWEST_ROOM"
+  },
+  {
+    "name": "GRAVEYARD_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "GRAVEYARD_MAIN"
+  },
+  {
+    "name": "GRAVEYARD_UPPER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "GRAVEYARD_UPPER"
+  },
+  {
+    "name": "GRAVEYARD_TOP_OF_BRIDGE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "GRAVEYARD_TOP_OF_BRIDGE"
+  },
+  {
+    "name": "GRAVEYARD_KOTRI",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "GRAVEYARD_KOTRI"
+  },
+  {
+    "name": "SKY_ISLAND_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_ISLAND_MAIN"
+  },
+  {
+    "name": "SKY_ISLAND_UPPER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_ISLAND_UPPER"
+  },
+  {
+    "name": "HALLOWEEN_UPPER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_UPPER"
+  },
+  {
+    "name": "HALLOWEEN_DARK_SHAFT",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_DARK_SHAFT"
+  },
+  {
+    "name": "HALLOWEEN_CENTRAL",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_CENTRAL"
+  },
+  {
+    "name": "HALLOWEEN_FLOODED",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_FLOODED"
+  },
+  {
+    "name": "HALLOWEEN_PUMPKIN_HALL",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_PUMPKIN_HALL"
+  },
+  {
+    "name": "HALLOWEEN_EXIT",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_EXIT"
+  },
+  {
+    "name": "HALLOWEEN_PAST_PILLARS",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALLOWEEN_PAST_PILLARS"
+  },
+  {
+    "name": "RAVINE_BEACH_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_BEACH_ENTRANCE"
+  },
+  {
+    "name": "RAVINE_LOWER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_LOWER"
+  },
+  {
+    "name": "RAVINE_TOWN_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_TOWN_ENTRANCE"
+  },
+  {
+    "name": "RAVINE_MANA_SURGE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_MANA_SURGE"
+  },
+  {
+    "name": "RAVINE_UPPER_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_UPPER_EAST"
+  },
+  {
+    "name": "RAVINE_UPPER_WEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_UPPER_WEST"
+  },
+  {
+    "name": "RAVINE_NORTH_ATTACK_UP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_NORTH_ATTACK_UP_ROOM"
+  },
+  {
+    "name": "RAVINE_CHOCOLATE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RAVINE_CHOCOLATE"
+  },
+  {
+    "name": "PARK_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PARK_MAIN"
+  },
+  {
+    "name": "PARK_KOTRI",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PARK_KOTRI"
+  },
+  {
+    "name": "PARK_TOWN_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PARK_TOWN_ENTRANCE"
+  },
+  {
+    "name": "UPRPRC_BASE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "UPRPRC_BASE"
+  },
+  {
+    "name": "PARK_UPPER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PARK_UPPER"
+  },
+  {
+    "name": "SKY_BRIDGE_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_MAIN"
+  },
+  {
+    "name": "SKY_BRIDGE_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_EAST"
+  },
+  {
+    "name": "SKY_BRIDGE_EAST_LOWER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_EAST_LOWER"
+  },
+  {
+    "name": "SKY_BRIDGE_DARK_AREA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_DARK_AREA"
+  },
+  {
+    "name": "SKY_BRIDGE_HEALTH_SURGE_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_HEALTH_SURGE_ROOM"
+  },
+  {
+    "name": "SKY_BRIDGE_SLIDE_AREA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_SLIDE_AREA"
+  },
+  {
+    "name": "SKY_BRIDGE_REGEN_UP_LEDGE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SKY_BRIDGE_REGEN_UP_LEDGE"
+  },
+  {
+    "name": "SNOWLAND_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_EAST"
+  },
+  {
+    "name": "SNOWLAND_MID",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_MID"
+  },
+  {
+    "name": "SNOWLAND_LAKE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_LAKE"
+  },
+  {
+    "name": "SNOWLAND_RITA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_RITA"
+  },
+  {
+    "name": "SNOWLAND_WEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_WEST"
+  },
+  {
+    "name": "SNOWLAND_CHRISTMAS_TREE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_CHRISTMAS_TREE"
+  },
+  {
+    "name": "ICY_SUMMIT_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "ICY_SUMMIT_MAIN"
+  },
+  {
+    "name": "ICY_SUMMIT_UPPER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "ICY_SUMMIT_UPPER"
+  },
+  {
+    "name": "ICY_SUMMIT_NIXIE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "ICY_SUMMIT_NIXIE"
+  },
+  {
+    "name": "PALACE_WARP_LEVEL_1_2",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PALACE_WARP_LEVEL_1_2"
+  },
+  {
+    "name": "PALACE_LEVEL_3",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PALACE_LEVEL_3"
+  },
+  {
+    "name": "PALACE_ATTACK_UP_TUNNEL",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PALACE_ATTACK_UP_TUNNEL"
+  },
+  {
+    "name": "PALACE_LEVEL_4",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PALACE_LEVEL_4"
+  },
+  {
+    "name": "PALACE_LEVEL_5",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PALACE_LEVEL_5"
+  },
+  {
+    "name": "SNOWLAND_EVERNIGHT_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SNOWLAND_EVERNIGHT_ENTRANCE"
+  },
+  {
+    "name": "AQUARIUM_TOP_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_TOP_ENTRANCE"
+  },
+  {
+    "name": "AQUARIUM_MID",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_MID"
+  },
+  {
+    "name": "AQUARIUM_WEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_WEST"
+  },
+  {
+    "name": "AQUARIUM_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_EAST"
+  },
+  {
+    "name": "AQUARIUM_WATER_TOWER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_WATER_TOWER"
+  },
+  {
+    "name": "AQUARIUM_BOMB_WALLED_AREA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_BOMB_WALLED_AREA"
+  },
+  {
+    "name": "AQUARIUM_ORB_SLIDE_MAZE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_ORB_SLIDE_MAZE"
+  },
+  {
+    "name": "AQUARIUM_BEACH_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "AQUARIUM_BEACH_ENTRANCE"
+  },
+  {
+    "name": "RIVERBANK_MAIN_LEVEL1",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_MAIN_LEVEL1"
+  },
+  {
+    "name": "RIVERBANK_LOWER_LEFT",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LOWER_LEFT"
+  },
+  {
+    "name": "RIVERBANK_LOWER_MID",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LOWER_MID"
+  },
+  {
+    "name": "RIVERBANK_LOWER_RIGHT",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LOWER_RIGHT"
+  },
+  {
+    "name": "RIVERBANK_LOWER_HEALTH_UP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LOWER_HEALTH_UP_ROOM"
+  },
+  {
+    "name": "RIVERBANK_PACK_UP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_PACK_UP_ROOM"
+  },
+  {
+    "name": "RIVERBANK_LOWER_FOREST_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LOWER_FOREST_ENTRANCE"
+  },
+  {
+    "name": "RIVERBANK_UNDERGROUND",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_UNDERGROUND"
+  },
+  {
+    "name": "RIVERBANK_LEVEL2",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LEVEL2"
+  },
+  {
+    "name": "RIVERBANK_LEVEL3",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "RIVERBANK_LEVEL3"
+  },
+  {
+    "name": "EVERNIGHT_WEST_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_WEST_ENTRANCE"
+  },
+  {
+    "name": "EVERNIGHT_NORTHWEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_NORTHWEST"
+  },
+  {
+    "name": "EVERNIGHT_SPIKE_BARRIER_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_SPIKE_BARRIER_ROOM"
+  },
+  {
+    "name": "EVERNIGHT_SAYA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_SAYA"
+  },
+  {
+    "name": "EVERNIGHT_CORRIDOR_BELOW_SAYA",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_CORRIDOR_BELOW_SAYA"
+  },
+  {
+    "name": "EVERNIGHT_EAST_OF_WARP",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_EAST_OF_WARP"
+  },
+  {
+    "name": "EVERNIGHT_LOWER",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_LOWER"
+  },
+  {
+    "name": "EVERNIGHT_WARP",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "EVERNIGHT_WARP"
+  },
+  {
+    "name": "LAB_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_ENTRANCE"
+  },
+  {
+    "name": "LAB_MID",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_MID"
+  },
+  {
+    "name": "LAB_SLIDING_POWDER_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_SLIDING_POWDER_ROOM"
+  },
+  {
+    "name": "LAB_WEST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_WEST"
+  },
+  {
+    "name": "LAB_EAST",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_EAST"
+  },
+  {
+    "name": "LAB_COMPUTER_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_COMPUTER_ROOM"
+  },
+  {
+    "name": "LAB_EAST_PACK_UP_ROOM",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "LAB_EAST_PACK_UP_ROOM"
+  },
+  {
+    "name": "TOWN_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "TOWN_MAIN"
+  },
+  {
+    "name": "TOWN_SHOP",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "TOWN_SHOP"
+  },
+  {
+    "name": "VOLCANIC_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "VOLCANIC_MAIN"
+  },
+  {
+    "name": "VOLCANIC_BEACH_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "VOLCANIC_BEACH_ENTRANCE"
+  },
+  {
+    "name": "PLURKWOOD_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "PLURKWOOD_MAIN"
+  },
+  {
+    "name": "SYSTEM_INTERIOR_MAIN",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "SYSTEM_INTERIOR_MAIN"
+  }
+]

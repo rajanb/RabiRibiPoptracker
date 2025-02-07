@@ -1,0 +1,160 @@
+{
+    "settings_popup": {
+        "type": "container",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0, 0, 100",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "knowledge",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Knowledge",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "difficulty",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Trick Difficulty",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "block_clips",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Block clips required",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "semisolid_clips",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Semisolid clips required",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "zips",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Zips required",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "darkness",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Darkness without light orb",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "underwater",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Underwater without water orb",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "carrot_shooter_logic",
+                                "max_height": 24,
+                                "max_width": 132,
+                                "margin": "4,4,4,0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Carrot shooter in logic",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    }
+                ]
+            }
+            
+        ]
+    }
+}
