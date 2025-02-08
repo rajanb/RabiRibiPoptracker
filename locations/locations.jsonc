@@ -1791,8 +1791,8 @@
   {
     "name": "Atk Up North Ravine",
     "access_rules": [
-      "reach_area|RAVINE_NORTH_ATTACK_UP_ROOM,$explosives",
-      "reach_area|RAVINE_NORTH_ATTACK_UP_ROOM,$block_clip"
+      "$reach_area|RAVINE_NORTH_ATTACK_UP_ROOM,$explosives",
+      "$reach_area|RAVINE_NORTH_ATTACK_UP_ROOM,$block_clip"
     ],
     "sections": [
       {
@@ -1949,7 +1949,7 @@
   {
     "name": "Egg Sky Bridge Warp",
     "access_rules": [
-      "reach_area|SKY_BRIDGE_MAIN,$explosives"
+      "$reach_area|SKY_BRIDGE_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -1968,7 +1968,7 @@
   {
     "name": "Egg Sky Bridge by Vanilla",
     "access_rules": [
-      "reach_area|SKY_BRIDGE_EAST,bomb"
+      "$reach_area|SKY_BRIDGE_EAST,bomb"
     ],
     "sections": [
       {
@@ -2207,7 +2207,7 @@
   {
     "name": "Self Defense",
     "access_rules": [
-      "reach_area|SNOWLAND_WEST,$underwater,slide"
+      "$reach_area|SNOWLAND_WEST,$underwater,slide"
     ],
     "sections": [
       {
@@ -2486,7 +2486,7 @@
   {
     "name": "HP Up Snowland",
     "access_rules": [
-      "reach_area|SNOWLAND_EAST,$explosives"
+      "$reach_area|SNOWLAND_EAST,$explosives"
     ],
     "sections": [
       {
@@ -2562,7 +2562,7 @@
   {
     "name": "Egg Snowland to Evernight",
     "access_rules": [
-      "reach_area|SNOWLAND_WEST,$explosives"
+      "$reach_area|SNOWLAND_WEST,$explosives"
     ],
     "sections": [
       {
@@ -2920,7 +2920,7 @@
   {
     "name": "Spike Barrier",
     "access_rules": [
-      "reach_area|EVERNIGHT_SPIKE_BARRIER_ROOM"
+      "$reach_area|EVERNIGHT_SPIKE_BARRIER_ROOM"
     ],
     "sections": [
       {
@@ -2958,7 +2958,7 @@
   {
     "name": "HP Up Lab Slide Tunnel",
     "access_rules": [
-      "reach_area|LAB_WEST,slide"
+      "$reach_area|LAB_WEST,slide"
     ],
     "sections": [
       {
@@ -2977,7 +2977,7 @@
   {
     "name": "MP Up Lab",
     "access_rules": [
-      "reach_area|LAB_WEST,slide"
+      "$reach_area|LAB_WEST,slide"
     ],
     "sections": [
       {
@@ -3078,7 +3078,7 @@
   {
     "name": "Sliding Powder",
     "access_rules": [
-      "reach_area|LAB_SLIDING_POWDER_ROOM"
+      "$reach_area|LAB_SLIDING_POWDER_ROOM"
     ],
     "sections": [
       {
@@ -3269,11 +3269,11 @@
   {
     "name": "Atk Up East Lab",
     "access_rules": [
-      "reach_area|LAB_EAST,$explosives,airjump",
-      "reach_area|LAB_EAST,$explosives,$airdash",
-      "reach_area|LAB_EAST,$explosives,slippers,$adv_vhard",
-      "reach_area|LAB_EAST,$explosives,slippers,$slide_jump_bunstrike",
-      "reach_area|LAB_ENTRANCE,$explosives,$hammer_roll_zip"
+      "$reach_area|LAB_EAST,$explosives,airjump",
+      "$reach_area|LAB_EAST,$explosives,$airdash",
+      "$reach_area|LAB_EAST,$explosives,slippers,$adv_vhard",
+      "$reach_area|LAB_EAST,$explosives,slippers,$slide_jump_bunstrike",
+      "$reach_area|LAB_ENTRANCE,$explosives,$hammer_roll_zip"
     ],
     "sections": [
       {
@@ -3292,7 +3292,7 @@
   {
     "name": "Pack Up Lab",
     "access_rules": [
-      "reach_area|LAB_EAST_PACK_UP_ROOM"
+      "$reach_area|LAB_EAST_PACK_UP_ROOM"
     ],
     "sections": [
       {
@@ -3486,7 +3486,7 @@
   {
     "name": "Egg Plurk Cats",
     "access_rules": [
-      "reach_area|PLURKWOOD_MAIN"
+      "$reach_area|PLURKWOOD_MAIN"
     ],
     "sections": [
       {
@@ -3505,7 +3505,7 @@
   {
     "name": "Egg Plurk Cave",
     "access_rules": [
-      "reach_area|PLURKWOOD_MAIN,$explosives"
+      "$reach_area|PLURKWOOD_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -3524,7 +3524,7 @@
   {
     "name": "Egg Plurk East",
     "access_rules": [
-      "reach_area|PLURKWOOD_MAIN"
+      "$reach_area|PLURKWOOD_MAIN"
     ],
     "sections": [
       {
@@ -3543,7 +3543,7 @@
   {
     "name": "P Hairpin",
     "access_rules": [
-      "reach_area|PLURKWOOD_MAIN"
+      "$reach_area|PLURKWOOD_MAIN"
     ],
     "sections": [
       {
@@ -3566,7 +3566,7 @@
   {
     "name": "HP Up Volcanic",
     "access_rules": [
-      "reach_area|VOLCANIC_BEACH_ENTRANCE,$explosives"
+      "$reach_area|VOLCANIC_BEACH_ENTRANCE,$explosives"
     ],
     "sections": [
       {
@@ -3585,8 +3585,8 @@
   {
     "name": "Fire Orb",
     "access_rules": [
-      "reach_area|VOLCANIC_MAIN,$explosives",
-      "reach_area|VOLCANIC_MAIN,fire"
+      "$reach_area|VOLCANIC_MAIN,$explosives",
+      "$reach_area|VOLCANIC_MAIN,fire"
     ],
     "sections": [
       {
@@ -3605,7 +3605,7 @@
   {
     "name": "Pack Up Volcanic",
     "access_rules": [
-      "reach_area|VOLCANIC_MAIN,$explosives"
+      "$reach_area|VOLCANIC_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -3624,7 +3624,7 @@
   {
     "name": "Egg Volcanic Bomb Bunnies",
     "access_rules": [
-      "reach_area|VOLCANIC_BEACH_ENTRANCE"
+      "$reach_area|VOLCANIC_BEACH_ENTRANCE"
     ],
     "sections": [
       {
@@ -3643,7 +3643,7 @@
   {
     "name": "Egg Volcanic Fire Orb",
     "access_rules": [
-      "reach_area|VOLCANIC_MAIN,$explosives"
+      "$reach_area|VOLCANIC_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -3662,15 +3662,15 @@
   {
     "name": "Egg Volcanic Northeast",
     "access_rules": [
-      "reach_area|VOLCANIC_MAIN,airjump",
-      "reach_area|VOLCANIC_MAIN,$airdash",
-      "reach_area|VOLCANIC_MAIN,$strike",
-      "reach_area|VOLCANIC_MAIN,$adv_stupid,$amulet",
-      "reach_area|VOLCANIC_MAIN,$whirl_bonk",
-      "reach_area|VOLCANIC_MAIN,slide,slippers",
-      "reach_area|VOLCANIC_MAIN,slide,walljump",
-      "reach_area|VOLCANIC_MAIN,slide,itm_hard",
-      "reach_area|VOLCANIC_MAIN,slippers,walljump"
+      "$reach_area|VOLCANIC_MAIN,airjump",
+      "$reach_area|VOLCANIC_MAIN,$airdash",
+      "$reach_area|VOLCANIC_MAIN,$strike",
+      "$reach_area|VOLCANIC_MAIN,$adv_stupid,$amulet",
+      "$reach_area|VOLCANIC_MAIN,$whirl_bonk",
+      "$reach_area|VOLCANIC_MAIN,slide,slippers",
+      "$reach_area|VOLCANIC_MAIN,slide,walljump",
+      "$reach_area|VOLCANIC_MAIN,slide,itm_hard",
+      "$reach_area|VOLCANIC_MAIN,slippers,walljump"
     ],
     "sections": [
       {
@@ -3689,9 +3689,9 @@
   {
     "name": "Egg Volcanic Big Drop",
     "access_rules": [
-      "reach_area|VOLCANIC_MAIN,$itm",
-      "reach_area|VOLCANIC_MAIN,airjump",
-      "reach_area|VOLCANIC_MAIN,$airdash"
+      "$reach_area|VOLCANIC_MAIN,$itm",
+      "$reach_area|VOLCANIC_MAIN,airjump",
+      "$reach_area|VOLCANIC_MAIN,$airdash"
     ],
     "sections": [
       {

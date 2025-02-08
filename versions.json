@@ -1,0 +1,20 @@
+{
+    "versions": [        
+        {
+            "package_version": "0.2",
+            "download_url": "https://github.com/rajanb/RabiRibiPoptracker/archive/refs/tags/v0.2.zip",
+            "sha256": "839f8a0464ced4e356f7d13f5aa005e0a8f04b8bb1551ee41b8a0dade1f5a7d4",
+            "changelog": [
+                "Added logic options"
+            ]
+        },
+        {
+            "package_version": "0.1",
+            "download_url": "https://github.com/rajanb/RabiRibiPoptracker/archive/refs/tags/v0.1.zip",
+            "sha256": "55afa6185184a90caac12b982e697a0a117165c89bbc14abe023e115123f637b",
+            "changelog": [
+                "Initial release"
+            ]
+        }
+    ]
+}
