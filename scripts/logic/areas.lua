@@ -787,7 +787,7 @@ end
 
 function riverbank_pack_up_room()
 	return (reach_area("RIVERBANK_MAIN_LEVEL1") and has_item("slide") and explosives()) or
-        (reach_area("RIVERBANK_LOWER_FOREST_ENTRANCE") and has_item("shooter"))
+        (reach_area("RIVERBANK_LOWER_FOREST_ENTRANCE") and has_item("shooter") and option_enabled("carrot_shooter_logic"))
 end
 
 function riverbank_lower_forest_entrance()

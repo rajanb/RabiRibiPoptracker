@@ -7,6 +7,8 @@
     "sections": [
       {
         "name": "Nature Orb",
+        "chest_unopened_img": "images/items/nature_orb.png",
+        "chest_opened_img": "images/items_collected/nature_orb.png",
         "item_count": 1
       }
     ],
@@ -27,6 +29,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -45,6 +49,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -64,6 +70,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -82,6 +90,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -101,6 +111,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -119,6 +131,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -137,6 +151,8 @@
     "sections": [
       {
         "name": "Toxic Strike",
+        "chest_unopened_img": "images/items/toxic_strike.png",
+        "chest_opened_img": "images/items_collected/toxic_strike.png",
         "item_count": 1
       }
     ],
@@ -155,6 +171,8 @@
     "sections": [
       {
         "name": "Piko Hammer",
+        "chest_unopened_img": "images/items/piko_hammer.png",
+        "chest_opened_img": "images/items_collected/piko_hammer.png",
         "item_count": 1
       }
     ],
@@ -174,6 +192,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -193,6 +213,8 @@
     "sections": [
       {
         "name": "Tough Skin",
+        "chest_unopened_img": "images/items/tough_skin.png",
+        "chest_opened_img": "images/items_collected/tough_skin.png",
         "item_count": 1
       }
     ],
@@ -213,6 +235,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -233,6 +257,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -257,6 +283,8 @@
     "sections": [
       {
         "name": "Wall Jump",
+        "chest_unopened_img": "images/items/wall_jump.png",
+        "chest_opened_img": "images/items_collected/wall_jump.png",
         "item_count": 1
       }
     ],
@@ -280,6 +308,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -298,6 +328,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -316,6 +348,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -334,6 +368,8 @@
     "sections": [
       {
         "name": "Carrot Bomb",
+        "chest_unopened_img": "images/items/carrot_bomb.png",
+        "chest_opened_img": "images/items_collected/carrot_bomb.png",
         "item_count": 1
       }
     ],
@@ -353,6 +389,8 @@
     "sections": [
       {
         "name": "Def Trade",
+        "chest_unopened_img": "images/items/def_trade.png",
+        "chest_opened_img": "images/items_collected/def_trade.png",
         "item_count": 1
       }
     ],
@@ -372,6 +410,8 @@
     "sections": [
       {
         "name": "Light Orb",
+        "chest_unopened_img": "images/items/light_orb.png",
+        "chest_opened_img": "images/items_collected/light_orb.png",
         "item_count": 1
       }
     ],
@@ -391,6 +431,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -409,6 +451,8 @@
     "sections": [
       {
         "name": "Charge Ring",
+        "chest_unopened_img": "images/items/charge_ring.png",
+        "chest_opened_img": "images/items_collected/charge_ring.png",
         "item_count": 1
       }
     ],
@@ -431,6 +475,8 @@
     "sections": [
       {
         "name": "Arm Strength",
+        "chest_unopened_img": "images/items/arm_strength.png",
+        "chest_opened_img": "images/items_collected/arm_strength.png",
         "item_count": 1
       }
     ],
@@ -452,6 +498,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -475,6 +523,8 @@
     "sections": [
       {
         "name": "Mana Wager",
+        "chest_unopened_img": "images/items/mana_wager.png",
+        "chest_opened_img": "images/items_collected/mana_wager.png",
         "item_count": 1
       }
     ],
@@ -493,6 +543,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -512,6 +564,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -530,6 +584,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -549,6 +605,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -568,6 +626,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -587,6 +647,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -605,6 +667,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -624,6 +688,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -643,6 +709,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -663,6 +731,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -682,6 +752,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -701,6 +773,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -724,6 +798,8 @@
     "sections": [
       {
         "name": "Survival",
+        "chest_unopened_img": "images/items/survival.png",
+        "chest_opened_img": "images/items_collected/survival.png",
         "item_count": 1
       }
     ],
@@ -749,6 +825,8 @@
     "sections": [
       {
         "name": "Health Wager",
+        "chest_unopened_img": "images/items/health_wager.png",
+        "chest_opened_img": "images/items_collected/health_wager.png",
         "item_count": 1
       }
     ],
@@ -768,6 +846,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -787,6 +867,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -806,6 +888,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -824,6 +908,8 @@
     "sections": [
       {
         "name": "Sunny Beam",
+        "chest_unopened_img": "images/items/sunny_beam.png",
+        "chest_opened_img": "images/items_collected/sunny_beam.png",
         "item_count": 1
       }
     ],
@@ -851,6 +937,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -870,6 +958,8 @@
     "sections": [
       {
         "name": "Auto Earrings",
+        "chest_unopened_img": "images/items/auto_earrings.png",
+        "chest_opened_img": "images/items_collected/auto_earrings.png",
         "item_count": 1
       }
     ],
@@ -888,6 +978,8 @@
     "sections": [
       {
         "name": "Health Plus",
+        "chest_unopened_img": "images/items/health_plus.png",
+        "chest_opened_img": "images/items_collected/health_plus.png",
         "item_count": 1
       }
     ],
@@ -907,6 +999,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -929,6 +1023,8 @@
     "sections": [
       {
         "name": "Crisis Boost",
+        "chest_unopened_img": "images/items/crisis_boost.png",
+        "chest_opened_img": "images/items_collected/crisis_boost.png",
         "item_count": 1
       }
     ],
@@ -948,6 +1044,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -967,6 +1065,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -986,6 +1086,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1005,6 +1107,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -1024,6 +1128,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -1042,6 +1148,8 @@
     "sections": [
       {
         "name": "Armored",
+        "chest_unopened_img": "images/items/armored.png",
+        "chest_opened_img": "images/items_collected/armored.png",
         "item_count": 1
       }
     ],
@@ -1061,6 +1169,8 @@
     "sections": [
       {
         "name": "Chaos Rod",
+        "chest_unopened_img": "images/items/chaos_rod.png",
+        "chest_opened_img": "images/items_collected/chaos_rod.png",
         "item_count": 1
       }
     ],
@@ -1081,6 +1191,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -1100,6 +1212,8 @@
     "sections": [
       {
         "name": "Top Form",
+        "chest_unopened_img": "images/items/top_form.png",
+        "chest_opened_img": "images/items_collected/top_form.png",
         "item_count": 1
       }
     ],
@@ -1120,6 +1234,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1138,6 +1254,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1157,6 +1275,8 @@
     "sections": [
       {
         "name": "Air Dash",
+        "chest_unopened_img": "images/items/air_dash.png",
+        "chest_opened_img": "images/items_collected/air_dash.png",
         "item_count": 1
       }
     ],
@@ -1175,6 +1295,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -1194,6 +1316,8 @@
     "sections": [
       {
         "name": "Pure Love",
+        "chest_unopened_img": "images/items/pure_love.png",
+        "chest_opened_img": "images/items_collected/pure_love.png",
         "item_count": 1
       }
     ],
@@ -1212,6 +1336,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1230,6 +1356,8 @@
     "sections": [
       {
         "name": "Hourglass",
+        "chest_unopened_img": "images/items/hourglass.png",
+        "chest_opened_img": "images/items_collected/hourglass.png",
         "item_count": 1
       }
     ],
@@ -1249,6 +1377,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1268,6 +1398,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -1287,6 +1419,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -1305,6 +1439,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1324,6 +1460,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1348,6 +1486,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1367,6 +1507,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1386,6 +1528,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1405,6 +1549,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1428,6 +1574,8 @@
     "sections": [
       {
         "name": "Def Grow",
+        "chest_unopened_img": "images/items/def_grow.png",
+        "chest_opened_img": "images/items_collected/def_grow.png",
         "item_count": 1
       }
     ],
@@ -1447,6 +1595,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -1466,6 +1616,8 @@
     "sections": [
       {
         "name": "Atk Trade",
+        "chest_unopened_img": "images/items/atk_trade.png",
+        "chest_opened_img": "images/items_collected/atk_trade.png",
         "item_count": 1
       }
     ],
@@ -1485,6 +1637,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1504,6 +1658,8 @@
     "sections": [
       {
         "name": "Rabi Slippers",
+        "chest_unopened_img": "images/items/rabi_slippers.png",
+        "chest_opened_img": "images/items_collected/rabi_slippers.png",
         "item_count": 1
       }
     ],
@@ -1524,6 +1680,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -1543,6 +1701,8 @@
     "sections": [
       {
         "name": "Health Surge",
+        "chest_unopened_img": "images/items/health_surge.png",
+        "chest_opened_img": "images/items_collected/health_surge.png",
         "item_count": 1
       }
     ],
@@ -1562,6 +1722,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1581,6 +1743,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1605,6 +1769,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1624,6 +1790,8 @@
     "sections": [
       {
         "name": "Hex Cancel",
+        "chest_unopened_img": "images/items/hex_cancel.png",
+        "chest_opened_img": "images/items_collected/hex_cancel.png",
         "item_count": 1
       }
     ],
@@ -1643,6 +1811,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1662,6 +1832,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -1681,6 +1853,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -1700,6 +1874,8 @@
     "sections": [
       {
         "name": "Lucky Seven",
+        "chest_unopened_img": "images/items/lucky_seven.png",
+        "chest_opened_img": "images/items_collected/lucky_seven.png",
         "item_count": 1
       }
     ],
@@ -1720,6 +1896,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -1738,6 +1916,8 @@
     "sections": [
       {
         "name": "Hammer Wave",
+        "chest_unopened_img": "images/items/hammer_wave.png",
+        "chest_opened_img": "images/items_collected/hammer_wave.png",
         "item_count": 1
       }
     ],
@@ -1756,6 +1936,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -1777,6 +1959,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1797,6 +1981,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -1816,6 +2002,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -1835,6 +2023,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -1855,6 +2045,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -1873,6 +2065,8 @@
     "sections": [
       {
         "name": "Mana Surge",
+        "chest_unopened_img": "images/items/mana_surge.png",
+        "chest_opened_img": "images/items_collected/mana_surge.png",
         "item_count": 1
       }
     ],
@@ -1892,6 +2086,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1916,6 +2112,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1935,6 +2133,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1954,6 +2154,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1973,6 +2175,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -1991,6 +2195,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2010,6 +2216,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2033,6 +2241,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -2052,6 +2262,8 @@
     "sections": [
       {
         "name": "Water Orb",
+        "chest_unopened_img": "images/items/water_orb.png",
+        "chest_opened_img": "images/items_collected/water_orb.png",
         "item_count": 1
       }
     ],
@@ -2071,6 +2283,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -2090,6 +2304,8 @@
     "sections": [
       {
         "name": "Mana Plus",
+        "chest_unopened_img": "images/items/mana_plus.png",
+        "chest_opened_img": "images/items_collected/mana_plus.png",
         "item_count": 1
       }
     ],
@@ -2109,6 +2325,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2130,6 +2348,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2155,6 +2375,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -2174,6 +2396,8 @@
     "sections": [
       {
         "name": "Stamina Plus",
+        "chest_unopened_img": "images/items/stamina_plus.png",
+        "chest_opened_img": "images/items_collected/stamina_plus.png",
         "item_count": 1
       }
     ],
@@ -2193,6 +2417,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -2212,6 +2438,8 @@
     "sections": [
       {
         "name": "Self Defense",
+        "chest_unopened_img": "images/items/self_defense.png",
+        "chest_opened_img": "images/items_collected/self_defense.png",
         "item_count": 1
       }
     ],
@@ -2231,6 +2459,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -2256,6 +2486,8 @@
     "sections": [
       {
         "name": "Gold Carrot",
+        "chest_unopened_img": "images/items/gold_carrot.png",
+        "chest_opened_img": "images/items_collected/gold_carrot.png",
         "item_count": 1
       }
     ],
@@ -2275,6 +2507,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2296,6 +2530,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -2315,6 +2551,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2334,6 +2572,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2358,6 +2598,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -2377,6 +2619,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -2396,6 +2640,8 @@
     "sections": [
       {
         "name": "Quick Barrette",
+        "chest_unopened_img": "images/items/quick_barrette.png",
+        "chest_opened_img": "images/items_collected/quick_barrette.png",
         "item_count": 1
       }
     ],
@@ -2415,6 +2661,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -2434,6 +2682,8 @@
     "sections": [
       {
         "name": "Super Carrot",
+        "chest_unopened_img": "images/items/super_carrot.png",
+        "chest_opened_img": "images/items_collected/super_carrot.png",
         "item_count": 1
       }
     ],
@@ -2453,6 +2703,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -2472,6 +2724,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -2491,6 +2745,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -2510,6 +2766,8 @@
     "sections": [
       {
         "name": "Carrot Boost",
+        "chest_unopened_img": "images/items/carrot_boost.png",
+        "chest_opened_img": "images/items_collected/carrot_boost.png",
         "item_count": 1
       }
     ],
@@ -2529,6 +2787,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -2548,6 +2808,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -2567,6 +2829,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2586,6 +2850,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2606,6 +2872,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2625,6 +2893,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2647,6 +2917,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2666,6 +2938,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2685,6 +2959,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2708,6 +2984,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -2730,6 +3008,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -2749,6 +3029,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -2768,6 +3050,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -2786,6 +3070,8 @@
     "sections": [
       {
         "name": "Atk Grow",
+        "chest_unopened_img": "images/items/atk_grow.png",
+        "chest_opened_img": "images/items_collected/atk_grow.png",
         "item_count": 1
       }
     ],
@@ -2805,6 +3091,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -2823,6 +3111,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2844,6 +3134,8 @@
     "sections": [
       {
         "name": "Bunny Whirl",
+        "chest_unopened_img": "images/items/bunny_whirl.png",
+        "chest_opened_img": "images/items_collected/bunny_whirl.png",
         "item_count": 1
       }
     ],
@@ -2862,6 +3154,8 @@
     "sections": [
       {
         "name": "Explode Shot",
+        "chest_unopened_img": "images/items/explode_shot.png",
+        "chest_opened_img": "images/items_collected/explode_shot.png",
         "item_count": 1
       }
     ],
@@ -2887,6 +3181,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -2906,6 +3202,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -2925,6 +3223,8 @@
     "sections": [
       {
         "name": "Spike Barrier",
+        "chest_unopened_img": "images/items/spike_barrier.png",
+        "chest_opened_img": "images/items_collected/spike_barrier.png",
         "item_count": 1
       }
     ],
@@ -2944,6 +3244,8 @@
     "sections": [
       {
         "name": "Frame Cancel",
+        "chest_unopened_img": "images/items/frame_cancel.png",
+        "chest_opened_img": "images/items_collected/frame_cancel.png",
         "item_count": 1
       }
     ],
@@ -2963,6 +3265,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -2982,6 +3286,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -3001,6 +3307,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -3018,14 +3326,16 @@
       "$darkness,slide,airjump,slippers",
       "$darkness,slide,airjump,$airdash",
       "$darkness,slide,airjump,$itm_hard",
-      "$whirl_bonk",
-      "slippers,$airdash",
-      "$strike,$airdash,$itm_hard",
-      "$adv_stupid,$amulet"
+      "$darkness,slide,$whirl_bonk",
+      "$darkness,slide,slippers,$airdash",
+      "$darkness,slide,$strike,$airdash,$itm_hard",
+      "$darkness,slide,$adv_stupid,$amulet"
     ],
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -3045,6 +3355,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -3064,6 +3376,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -3083,6 +3397,8 @@
     "sections": [
       {
         "name": "Sliding Powder",
+        "chest_unopened_img": "images/items/sliding_powder.png",
+        "chest_opened_img": "images/items_collected/sliding_powder.png",
         "item_count": 1
       }
     ],
@@ -3103,6 +3419,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -3121,6 +3439,8 @@
     "sections": [
       {
         "name": "Cashback",
+        "chest_unopened_img": "images/items/cashback.png",
+        "chest_opened_img": "images/items_collected/cashback.png",
         "item_count": 1
       }
     ],
@@ -3139,6 +3459,8 @@
     "sections": [
       {
         "name": "Plus Necklace",
+        "chest_unopened_img": "images/items/plus_necklace.png",
+        "chest_opened_img": "images/items_collected/plus_necklace.png",
         "item_count": 1
       }
     ],
@@ -3157,6 +3479,8 @@
     "sections": [
       {
         "name": "Weaken",
+        "chest_unopened_img": "images/items/weaken.png",
+        "chest_opened_img": "images/items_collected/weaken.png",
         "item_count": 1
       }
     ],
@@ -3176,6 +3500,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -3195,6 +3521,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -3218,6 +3546,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -3237,6 +3567,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -3255,6 +3587,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -3278,6 +3612,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -3297,6 +3633,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -3316,6 +3654,8 @@
     "sections": [
       {
         "name": "Hammer Roll",
+        "chest_unopened_img": "images/items/hammer_roll.png",
+        "chest_opened_img": "images/items_collected/hammer_roll.png",
         "item_count": 1
       }
     ],
@@ -3335,6 +3675,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3359,6 +3701,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3377,6 +3721,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3396,6 +3742,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3419,6 +3767,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3443,6 +3793,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3461,10 +3813,14 @@
     "sections": [
       {
         "name": "Speed Boost",
+        "chest_unopened_img": "images/items/speed_boost.png",
+        "chest_opened_img": "images/items_collected/speed_boost.png",
         "item_count": 1
       },
       {
         "name": "Bunny Strike",
+        "chest_unopened_img": "images/items/bunny_strike.png",
+        "chest_opened_img": "images/items_collected/bunny_strike.png",
         "item_count": 1,
         "access_rules": [
           "slide"
@@ -3491,6 +3847,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3510,6 +3868,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3529,6 +3889,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3548,6 +3910,8 @@
     "sections": [
       {
         "name": "P Hairpin",
+        "chest_unopened_img": "images/items/p_hairpin.png",
+        "chest_opened_img": "images/items_collected/p_hairpin.png",
         "item_count": 1
       }
     ],
@@ -3571,6 +3935,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -3591,6 +3957,8 @@
     "sections": [
       {
         "name": "Fire Orb",
+        "chest_unopened_img": "images/items/fire_orb.png",
+        "chest_opened_img": "images/items_collected/fire_orb.png",
         "item_count": 1
       }
     ],
@@ -3610,6 +3978,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -3629,6 +3999,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3648,6 +4020,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3675,6 +4049,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3696,6 +4072,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
@@ -3727,6 +4105,8 @@
     "sections": [
       {
         "name": "Regen Up",
+        "chest_unopened_img": "images/items/regen_up.png",
+        "chest_opened_img": "images/items_collected/regen_up.png",
         "item_count": 1
       }
     ],
@@ -3745,6 +4125,8 @@
     "sections": [
       {
         "name": "Pack Up",
+        "chest_unopened_img": "images/items/pack_up.png",
+        "chest_opened_img": "images/items_collected/pack_up.png",
         "item_count": 1
       }
     ],
@@ -3763,6 +4145,8 @@
     "sections": [
       {
         "name": "Air Jump",
+        "chest_unopened_img": "images/items/air_jump.png",
+        "chest_opened_img": "images/items_collected/air_jump.png",
         "item_count": 1
       }
     ],
@@ -3791,6 +4175,8 @@
     "sections": [
       {
         "name": "HP Up",
+        "chest_unopened_img": "images/items/health_up.png",
+        "chest_opened_img": "images/items_collected/health_up.png",
         "item_count": 1
       }
     ],
@@ -3811,6 +4197,8 @@
     "sections": [
       {
         "name": "Atk Up",
+        "chest_unopened_img": "images/items/attack_up.png",
+        "chest_opened_img": "images/items_collected/attack_up.png",
         "item_count": 1
       }
     ],
@@ -3829,6 +4217,8 @@
     "sections": [
       {
         "name": "MP Up",
+        "chest_unopened_img": "images/items/mana_up.png",
+        "chest_opened_img": "images/items_collected/mana_up.png",
         "item_count": 1
       }
     ],
@@ -3847,6 +4237,8 @@
     "sections": [
       {
         "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
         "item_count": 1
       }
     ],
