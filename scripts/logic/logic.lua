@@ -21,8 +21,7 @@ function strike()
 end
 
 function amulet()
-    --amulet not randomized so it should always be accessible?
-    return true
+    return reach_area("TOWN_MAIN")
 end
 
 --knowledge and difficulty
@@ -35,8 +34,12 @@ function vhard()
     return option_value_at_least("difficulty",2)
 end
 
-function stupid()
+function extreme()
     return option_value_at_least("difficulty",3)
+end
+
+function stupid()
+    return option_value_at_least("difficulty",4)
 end
 
 
@@ -45,11 +48,11 @@ function itm()
 end
 
 function itm_hard()
-    return  option_value_at_least("knowledge",1) and hard()
+    return  itm() and hard()
 end
 
 function itm_vhard()
-    return  option_value_at_least("knowledge",1) and vhard()
+    return  itm() and vhard()
 end
 
 
@@ -58,17 +61,37 @@ function adv()
 end
 
 function adv_hard()
-    return  option_value_at_least("knowledge",2) and hard()
+    return  adv() and hard()
 end
 
 function adv_vhard()
-    return  option_value_at_least("knowledge",2) and vhard()
+    return  adv() and vhard()
+end
+
+function adv_ext()
+    return  adv() and extreme()
 end
 
 function adv_stupid()
-    return  option_value_at_least("knowledge",2) and stupid()
+    return  adv() and stupid()
 end
 
+
+function obs()
+    return  option_value_at_least("knowledge",3)
+end
+
+function obs_vhard()
+    return  obs() and vhard()
+end
+
+function obs_ext()
+    return  obs() and extreme()
+end
+
+function obs_stupid()
+    return  obs() and stupid()
+end
 
 -- trick logic
 
@@ -93,15 +116,15 @@ function whirl_bonk()
 end
 
 function whirl_bonk_cancel()
-    return whirl_bonk() and amulet()
+    return whirl() and ((amulet() and itm_hard()) or obs_vhard())
 end
 
 function slide_jump_bunstrike()
-    return strike() and itm_hard()
+    return strike() and itm()
 end
 
 function slide_jump_bunstrike_cancel()
-    return slide_jump_bunstrike() and amulet()
+    return strike() and amulet() and itm_hard()
 end
 
 function block_clip()
@@ -112,6 +135,10 @@ function downdrill_semisolid_clip()
     return has_item("hammer") and option_enabled("semisolid_clips")
 end
 
+function two_tile_downdrill_semisolid_clip()
+    return downdrill_semisolid_clip() and obs_ext()
+end
+
 function eight_tile_walljump()
     return (itm() and (hard() or has_item("walljump"))) or
            has_item("slippers") or has_item("airjump")
@@ -120,4 +147,24 @@ end
 function explosives()
     --assuming you always have boost for carrot shooter
     return has_item("bomb") or (has_item("shooter") and option_enabled("carrot_shooter_logic"))
+end
+
+function two_tile_zip()
+    return slide_zip() and adv_vhard()
+end
+
+function three_tile_zip()
+    return slide_zip() and hard()
+end
+
+function four_tile_zip()
+    return slide_zip() and hard()
+end
+
+function five_tile_zip()
+    return has_item("slippers") and slide_zip() and adv_vhard()
+end
+
+function five_tile_wall_climb()
+    return has_item("airjump") or airdash() or (adv_vhard() and has_item("slippers") and amulet()) or (adv_ext() and has_item("walljump") and amulet())
 end

@@ -217,4 +217,9 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 0xC3] = { {"@Egg Volcanic Big Drop/Egg"} },
 
 	[BASE_LOCATION_ID + 0xC5] = { {"@Egg System Interior/Egg"} },
+
+	[BASE_LOCATION_ID + 0xDE] = { {"@Pbpb Box/Pbpb Box"} },
+	[BASE_LOCATION_ID + 0xDF] = { {"@Egg Sky Bridge Above Warp/Egg"} },
+	[BASE_LOCATION_ID + 0xE0] = { {"@Egg Snowland Spikes Room/Egg"} },
+	[BASE_LOCATION_ID + 0xE1] = { {"@Egg Lab Entrance/Egg"} },
 }

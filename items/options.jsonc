@@ -17,6 +17,10 @@
             {
                 "name": "Advanced",
                 "img": "images/options/advanced.png"
+            },
+            {
+                "name": "Obscure",
+                "img": "images/options/obscure.png"
             }
         ]
     },
@@ -38,6 +42,10 @@
             {
                 "name": "V Hard",
                 "img": "images/options/vhard.png"
+            },
+            {
+                "name": "Extreme",
+                "img": "images/options/extreme.png"
             },
             {
                 "name": "Stupid",

@@ -45,6 +45,7 @@
   {
     "name": "HP Up West Spectral",
     "access_rules": [
+      "$reach_area|SPECTRAL_UPPER"
     ],
     "sections": [
       {
@@ -85,7 +86,8 @@
   },
   {
     "name": "Pack Up Spectral",
-    "access_rules": [          
+    "access_rules": [
+      "$reach_area|SPECTRAL_UPPER"
     ],
     "sections": [
       {
@@ -106,7 +108,7 @@
   {
     "name": "MP Up Cave",
     "access_rules": [
-      "slide"
+      "$reach_area|CAVE_WEST,slide"
     ],
     "sections": [
       {
@@ -127,6 +129,7 @@
   {
     "name": "HP Up Cave",
     "access_rules": [
+      "$reach_area|CAVE_WEST"
     ],
     "sections": [
       {
@@ -147,6 +150,7 @@
   {
     "name": "Toxic Strike",
     "access_rules": [
+      "$reach_area|FOREST_NIGHT_TOXIC_STRIKE"
     ],
     "sections": [
       {
@@ -167,6 +171,7 @@
   {
     "name": "Piko Hammer",
     "access_rules": [
+      "$reach_area|FOREST_START"
     ],
     "sections": [
       {
@@ -187,7 +192,7 @@
   {
     "name": "MP Up Forest Cave",
     "access_rules": [
-      "slide"
+      "$reach_area|CAVE_COCOA,slide"
     ],
     "sections": [
       {
@@ -229,8 +234,8 @@
   {
     "name": "Regen Up Cave",
     "access_rules": [
-      "$explosives,slide",
-      "$itm,slide"
+      "$reach_area|CAVE_COCOA,$explosives,slide",
+      "$reach_area|CAVE_COCOA,$itm,slide"
     ],
     "sections": [
       {
@@ -273,12 +278,7 @@
   {
     "name": "Wall Jump",
     "access_rules": [
-      "$reach_area|SPECTRAL_MID,slippers",
-      "$reach_area|SPECTRAL_MID,airjump",
-      "$reach_area|SPECTRAL_MID,walljump",
-      "$reach_area|SPECTRAL_MID,$itm_hard,$airdash",
-      "$reach_area|SPECTRAL_MID,$itm_hard,slide",
-      "$reach_area|SPECTRAL_MID,$adv_stupid,speed"
+      "$reach_area|SPECTRAL_MID"
     ],
     "sections": [
       {
@@ -299,11 +299,16 @@
   {
     "name": "Regen Up Mid Forest",
     "access_rules": [
-      "$itm_hard,walljump",
-      "$itm_hard,$whirl_bonk_cancel",
-      "airjump",
-      "slippers,walljump",
-      "$slide_jump_bunstrike_cancel,walljump"
+      "$reach_area|FOREST_WARP,airjump",
+      "$reach_area|FOREST_WARP,slippers,walljump",
+      "$reach_area|FOREST_WARP,$itm_hard,walljump",
+      "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,speed",
+      "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,walljump",
+      "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,$itm_vhard",
+      "$reach_area|FOREST_WARP,$adv_hard,$whirl_bonk_cancel",
+      "$reach_area|FOREST_WARP,$adv_hard,$roll",
+      "$reach_area|FOREST_WARP,$adv_ext,$whirl_bonk",
+      "$reach_area|FOREST_WARP,$adv_ext,slide"
     ],
     "sections": [
       {
@@ -324,6 +329,7 @@
   {
     "name": "MP Up Mid Spectral",
     "access_rules": [
+      "$reach_area|SPECTRAL_UPPER"
     ],
     "sections": [
       {
@@ -344,6 +350,7 @@
   {
     "name": "HP Up Mid Spectral",
     "access_rules": [
+      "$reach_area|SPECTRAL_UPPER"
     ],
     "sections": [
       {
@@ -364,6 +371,7 @@
   {
     "name": "Carrot Bomb",
     "access_rules": [
+      "$reach_area|FOREST_COCOA_ROOM"
     ],
     "sections": [
       {
@@ -384,7 +392,7 @@
   {
     "name": "Def Trade",
     "access_rules": [
-      "$explosives"
+      "$reach_area|FOREST_WARP,$explosives"
     ],
     "sections": [
       {
@@ -426,7 +434,10 @@
   {
     "name": "HP Up Forest Post Cocoa",
     "access_rules": [
-      "$explosives","hammer"
+      "$reach_area|FOREST_WARP,$explosives",
+      "$reach_area|FOREST_WARP,hammer",
+      "$reach_area|FOREST_WARP,shooter,$obs_vhard",
+      "$reach_area|FOREST_COCOA_ROOM,$explosives"
     ],
     "sections": [
       {
@@ -447,6 +458,7 @@
   {
     "name": "Charge Ring",
     "access_rules": [
+      "$reach_area|CAVE_COCOA"
     ],
     "sections": [
       {
@@ -467,10 +479,11 @@
   {
     "name": "Arm Strength",
     "access_rules": [
-      "airjump",
-      "$slide_jump_bunstrike",
-      "$airdash",
-      "$adv_vhard"
+      "$reach_area|SPECTRAL_WARP,airjump",
+      "$reach_area|SPECTRAL_CICINI_LEDGE,$slide_jump_bunstrike",
+      "$reach_area|SPECTRAL_CICINI_LEDGE,$airdash",
+      "$reach_area|SPECTRAL_CICINI_LEDGE,airjump",
+      "$reach_area|SPECTRAL_CICINI_LEDGE,$adv_vhard,$amulet"
     ],
     "sections": [
       {
@@ -492,8 +505,17 @@
     "name": "Regen Up East Forest",
     "access_rules": [
       "$reach_area|FOREST_UPPER_EAST",
-      "$adv_vhard,$whirl_bonk",
-      "$adv_hard,slippers,$slide_jump_bunstrike,speed"
+      "$reach_area|FOREST_EAST_ABOVE_SPRING,$itm_hard,$whirl_bonk_cancel,$airdash",
+      "$reach_area|FOREST_EAST_ABOVE_SPRING,$adv_vhard,$whirl_bonk"
+
+      //ignoring this for now since you can get to FOREST_UPPER_EAST from FOREST_EAST_ABOVE_SPRING with airjump
+      //
+      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$airdash,slippers,$slide_jump_bunstrike_cancel",
+      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_hard,slippers,$slide_jump_bunstrike,speed",
+      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_vhard,slippers,$slide_jump_bunstrike",
+      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_ext,$airdash,$amulet",
+      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_ext,slide,slippers",
+      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_ext,slide,$obs"
     ],
     "sections": [
       {
@@ -516,9 +538,16 @@
     "access_rules": [
       "$reach_area|FOREST_UPPER_EAST,$whirl_bonk",
       "$reach_area|FOREST_UPPER_EAST,airjump,slippers",
-      "$reach_area|FOREST_UPPER_EAST,airjump,$slide_jump_bunstrike_cancel",
-      "$reach_area|FOREST_UPPER_EAST,$adv_vhard,$airdash",
-      "$reach_area|FOREST_UPPER_EAST,$adv_stupid,slide,slippers"
+      "$reach_area|FOREST_UPPER_EAST,airjump,$itm_hard",
+      "$reach_area|FOREST_UPPER_EAST,$airdash,slippers",
+      "$reach_area|FOREST_UPPER_EAST,$airdash,$slide_jump_bunstrike_cancel",
+      "$reach_area|FOREST_UPPER_EAST,$adv_hard,$airdash,$amulet",
+      "$reach_area|FOREST_UPPER_EAST,$obs_ext,$airdash,$amulet",
+      "$reach_area|FOREST_UPPER_EAST,$adv_vhard,slide,$airdash",
+      "$reach_area|FOREST_UPPER_EAST,$adv_vhard,slide,hammer,$obs_stupid",
+      "$reach_area|FOREST_UPPER_EAST,$adv_vhard,walljump,$airdash,$amulet",
+      "$reach_area|FOREST_UPPER_EAST,$adv_vhard,walljump,$airdash,$obs",
+      "$reach_area|FOREST_UPPER_EAST,$adv_ext,walljump,$amulet"
     ],
     "sections": [
       {
@@ -539,6 +568,7 @@
   {
     "name": "MP Up East Forest",
     "access_rules": [
+      "$reach_area|FOREST_EAST_ABOVE_SPRING"
     ],
     "sections": [
       {
@@ -559,7 +589,8 @@
   {
     "name": "Pack Up East Forest",
     "access_rules": [
-      "hammer,slide", "$explosives,slide"
+      "$reach_area|FOREST_WARP,hammer,slide",
+      "$reach_area|FOREST_WARP,$explosives,slide"
     ],
     "sections": [
       {
@@ -580,6 +611,7 @@
   {
     "name": "MP Up Cicini",
     "access_rules": [
+      "$reach_area|SPECTRAL_WARP"
     ],
     "sections": [
       {
@@ -600,7 +632,8 @@
   {
     "name": "MP Up Northeast Forest",
     "access_rules": [
-      "$reach_area|FOREST_UPPER_EAST,slide,$explosives"
+      "$reach_area|FOREST_UPPER_EAST,slide,$explosives",
+      "$reach_area|FOREST_UPPER_EAST,$obs_vhard,$five_tile_zip"
     ],
     "sections": [
       {
@@ -621,7 +654,7 @@
   {
     "name": "Egg Forest Night Aruraune",
     "access_rules": [
-      "$darkness,$explosives"
+      "$reach_area|FOREST_NIGHT_WEST,$darkness,$explosives"
     ],
     "sections": [
       {
@@ -642,7 +675,7 @@
   {
     "name": "Egg Spectral West",
     "access_rules": [
-      "hammer,airdash,slide", "airjump"
+      "$reach_area|SPECTRAL_WEST_EGG_ROOM"
     ],
     "sections": [
       {
@@ -663,6 +696,7 @@
   {
     "name": "Egg Cave Under Hammer",
     "access_rules": [
+      "$reach_area|CAVE_ENTRANCE"
     ],
     "sections": [
       {
@@ -683,7 +717,7 @@
   {
     "name": "Egg Forest Night East",
     "access_rules": [
-      "$darkness,$explosives"
+      "$reach_area|FOREST_NIGHT_NORTH_EAST,$darkness,$explosives"
     ],
     "sections": [
       {
@@ -704,7 +738,7 @@
   {
     "name": "Egg Spectral Slide",
     "access_rules": [
-      "slide"
+      "$reach_area|SPECTRAL_WARP,slide"
     ],
     "sections": [
       {
@@ -725,8 +759,7 @@
   {
     "name": "Egg Cave Cocoa",
     "access_rules": [
-      "$explosives",
-      "$adv_stupid"
+      "$reach_area|CAVE_COCOA,$explosives"
     ],
     "sections": [
       {
@@ -815,11 +848,12 @@
     "name": "Health Wager",
     "access_rules": [
       "$reach_area|GRAVEYARD_UPPER,airjump,$airdash",
+      "$reach_area|GRAVEYARD_UPPER,airjump,$strike",
       "$reach_area|GRAVEYARD_UPPER,airjump,$itm_hard",
       "$reach_area|GRAVEYARD_UPPER,$airdash,$adv_vhard",
       "$reach_area|GRAVEYARD_UPPER,$airdash,$itm_hard,walljump",
       "$reach_area|GRAVEYARD_UPPER,$airdash,$itm_hard,$amulet",
-      "$reach_area|GRAVEYARD_UPPER,$airdash,$adv_stupid",
+      "$reach_area|GRAVEYARD_UPPER,$airdash,$adv_ext",
       "$reach_area|GRAVEYARD_UPPER,$adv_vhard,$strike,$amulet"
     ],
     "sections": [
@@ -904,6 +938,7 @@
   {
     "name": "Sunny Beam",
     "access_rules": [
+      "$reach_area|BEACH_MAIN"
     ],
     "sections": [
       {
@@ -924,15 +959,20 @@
   {
     "name": "MP Up Upper Graveyard",
     "access_rules": [
-      "$reach_area|GRAVEYARD_UPPER,$airdash,bomb",
-      "$reach_area|GRAVEYARD_UPPER,airjump,bomb",
-      "$reach_area|GRAVEYARD_UPPER,$itm_hard,$amulet,bomb",
-      "$reach_area|GRAVEYARD_UPPER,$itm_hard,$strike,bomb",
+      "$reach_area|GRAVEYARD_UPPER,airjump,$explosives",
+      "$reach_area|GRAVEYARD_UPPER,$airdash,$explosives",
+      "$reach_area|GRAVEYARD_UPPER,$itm_hard,$amulet,$explosives",
+      "$reach_area|GRAVEYARD_UPPER,$itm_hard,$strike,$explosives",
 
-      "$reach_area|GRAVEYARD_UPPER,$airdash,$block_clip",
       "$reach_area|GRAVEYARD_UPPER,airjump,$block_clip",
+      "$reach_area|GRAVEYARD_UPPER,$airdash,$block_clip",
       "$reach_area|GRAVEYARD_UPPER,$itm_hard,$amulet,$block_clip",
-      "$reach_area|GRAVEYARD_UPPER,$itm_hard,$strike,$block_clip"
+      "$reach_area|GRAVEYARD_UPPER,$itm_hard,$strike,$block_clip",
+
+      "$reach_area|GRAVEYARD_MAIN,$adv_vhard,$whirl_bonk,airjump",
+      "$reach_area|GRAVEYARD_MAIN,$adv_vhard,$whirl_bonk,$obs_ext,$roll",
+      "$reach_area|GRAVEYARD_MAIN,$adv_vhard,$whirl_bonk,$adv_ext,$amulet,slippers",
+      "$reach_area|GRAVEYARD_MAIN,$adv_vhard,$whirl_bonk,$adv_ext,$amulet,$stupid"
     ],
     "sections": [
       {
@@ -974,6 +1014,7 @@
   {
     "name": "Health Plus",
     "access_rules": [
+      "$reach_area|BEACH_MAIN"
     ],
     "sections": [
       {
@@ -1015,10 +1056,7 @@
   {
     "name": "Crisis Boost",
     "access_rules": [
-      "$reach_area|GRAVEYARD_MAIN,airjump,slippers",
-      "$reach_area|GRAVEYARD_MAIN,airjump,$itm_hard",
-      "$reach_area|GRAVEYARD_MAIN,$airdash,slippers",
-      "$reach_area|GRAVEYARD_MAIN,$airdash,$slide_jump_bunstrike_cancel"
+      "$reach_area|LIBRARY_OUTSIDE"
     ],
     "sections": [
       {
@@ -1060,7 +1098,7 @@
   {
     "name": "HP Up Inner Pyramid",
     "access_rules": [
-      "$explosives"
+      "$reach_area|PYRAMID_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -1081,7 +1119,7 @@
   {
     "name": "HP Up Beach",
     "access_rules": [
-      "$explosives"
+      "$reach_area|BEACH_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -1102,7 +1140,7 @@
   {
     "name": "Atk Up Pyramid",
     "access_rules": [
-      "bomb"
+      "$reach_area|PYRAMID_MAIN,bomb"
     ],
     "sections": [
       {
@@ -1123,7 +1161,7 @@
   {
     "name": "Pack Up Pyramid",
     "access_rules": [
-      "$explosives"
+      "$reach_area|PYRAMID_MAIN,$explosives"
     ],
     "sections": [
       {
@@ -1144,6 +1182,9 @@
   {
     "name": "Armored",
     "access_rules": [
+      "$reach_area|PYRAMID_MAIN,$block_clip",
+      "$reach_area|PYRAMID_MAIN,$explosives",
+      "$reach_area|PYRAMID_MAIN,$itm",
     ],
     "sections": [
       {
@@ -1185,8 +1226,8 @@
   {
     "name": "Pack Up Beach",
     "access_rules": [
-      "$explosives",
-      "$block_clip"
+      "$reach_area|BEACH_MAIN,$explosives",
+      "$reach_area|BEACH_MAIN,$block_clip"
     ],
     "sections": [
       {
@@ -1207,7 +1248,9 @@
   {
     "name": "Top Form",
     "access_rules": [
-      "$reach_area|SKY_ISLAND_UPPER"
+      "$reach_area|SKY_ISLAND_UPPER,$five_tile_wall_climb",
+      "$reach_area|SKY_ISLAND_UPPER,$slide_jump_bunstrike",
+      "$reach_area|SKY_ISLAND_UPPER,$adv_ext,slippers,slide"
     ],
     "sections": [
       {
@@ -1228,8 +1271,8 @@
   {
     "name": "HP Up Pyramid Entrance",
     "access_rules": [
-      "bomb",
-      "shooter,$adv_hard"
+      "$reach_area|BEACH_MAIN,bomb",
+      "$reach_area|BEACH_MAIN,shooter,$adv_hard"
     ],
     "sections": [
       {
@@ -1250,6 +1293,7 @@
   {
     "name": "MP Up Pyramid Bomb Block Room",
     "access_rules": [
+      "$reach_area|PYRAMID_MAIN"
     ],
     "sections": [
       {
@@ -1270,7 +1314,7 @@
   {
     "name": "Air Dash",
     "access_rules": [
-      "$reach_area|SKY_ISLAND_MAIN,$explosives,slide"
+      "$reach_area|SKY_ISLAND_AIR_DASH_ROOM"
     ],
     "sections": [
       {
@@ -1291,6 +1335,7 @@
   {
     "name": "Regen Up Pyramid",
     "access_rules": [
+      "$reach_area|PYRAMID_WARP_ROOM"
     ],
     "sections": [
       {
@@ -1332,6 +1377,7 @@
   {
     "name": "MP Up Beach Tunnel",
     "access_rules": [
+      "$reach_area|BEACH_MAIN"
     ],
     "sections": [
       {
@@ -1352,6 +1398,7 @@
   {
     "name": "Hourglass",
     "access_rules": [
+      "$reach_area|PYRAMID_HOURGLASS_ROOM"
     ],
     "sections": [
       {
@@ -1435,6 +1482,7 @@
   {
     "name": "MP Up Beach Pillar",
     "access_rules": [
+      "$reach_area|BEACH_FOREST_ENTRANCE"
     ],
     "sections": [
       {
@@ -1479,9 +1527,10 @@
       "$reach_area|GRAVEYARD_UPPER,airjump",
       "$reach_area|GRAVEYARD_UPPER,$airdash",
       "$reach_area|GRAVEYARD_UPPER,$slide_jump_bunstrike",
-      "$reach_area|GRAVEYARD_UPPER,slide,slippers",
-      "$reach_area|GRAVEYARD_UPPER,slide,adv_vhard,speed",
-      "$reach_area|GRAVEYARD_UPPER,slide,adv_stupid,$amulet"
+      "$reach_area|GRAVEYARD_UPPER,slippers,speed,$itm",
+      "$reach_area|GRAVEYARD_UPPER,slippers,slide",
+      "$reach_area|GRAVEYARD_UPPER,$adv_vhard,slide",
+      "$reach_area|GRAVEYARD_UPPER,$adv_ext,$amulet,slippers"
     ],
     "sections": [
       {
@@ -1502,7 +1551,11 @@
   {
     "name": "Egg Pyramid Beach",
     "access_rules": [
-      "$adv_stupid,$amulet","$explosives","airjump","$airdash"
+      "$reach_area|BEACH_MAIN,$explosives",
+      "$reach_area|BEACH_MAIN,airjump",
+      "$reach_area|BEACH_MAIN,$airdash",
+      "$reach_area|BEACH_MAIN,$adv_ext,$amulet",
+      "$reach_area|BEACH_MAIN,$adv_ext,$whirl_bonk"
     ],
     "sections": [
       {
@@ -1523,7 +1576,7 @@
   {
     "name": "Egg Pyramid Lower",
     "access_rules": [
-      "$explosives"
+      "$reach_area|PYRAMID_LOWER,$explosives"
     ],
     "sections": [
       {
@@ -1653,7 +1706,7 @@
   {
     "name": "Rabi Slippers",
     "access_rules": [
-      "$reach_area|PARK_MAIN"
+      "$reach_area|UPRPRC_LOWER"
     ],
     "sections": [
       {
@@ -1717,7 +1770,14 @@
   {
     "name": "MP Up Sky Bridge",
     "access_rules": [
-      "$reach_area|SKY_BRIDGE_MAIN,$explosives,slide"
+      "$reach_area|SKY_BRIDGE_MAIN,$explosives,slide",
+      "$reach_area|SKY_BRIDGE_MAIN,$five_tile_zip",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,shooter",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,$whirl_bonk_cancel",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,airjump",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,walljump",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,$amulet",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,$obs",
     ],
     "sections": [
       {
@@ -1764,7 +1824,8 @@
       "$reach_area|PARK_MAIN,$airdash",
       "$reach_area|PARK_MAIN,airjump",
       "$reach_area|PARK_MAIN,$itm,speed",
-      "$reach_area|PARK_MAIN,$adv_vhard,$amulet"
+      "$reach_area|PARK_MAIN,$adv_vhard,$amulet",
+      "$reach_area|PARK_MAIN,$obs_ext"
     ],
     "sections": [
       {
@@ -1912,6 +1973,7 @@
   {
     "name": "Hammer Wave",
     "access_rules": [
+      "$reach_area|RAVINE_UPPER_WEST"
     ],
     "sections": [
       {
@@ -1932,6 +1994,7 @@
   {
     "name": "Atk Up West Ravine",
     "access_rules": [
+      "$reach_area|RAVINE_UPPER_WEST"
     ],
     "sections": [
       {
@@ -1953,8 +2016,8 @@
     "name": "HP Up South Ravine",
     "access_rules": [
       
-      "$explosives,slide",
-      "$explosives,$hammer_roll_zip"
+      "$reach_area|RAVINE_LOWER,$explosives,slide",
+      "$reach_area|RAVINE_LOWER,$explosives,$hammer_roll_zip"
     ],
     "sections": [
       {
@@ -1997,7 +2060,7 @@
   {
     "name": "HP Up Mid Ravine",
     "access_rules": [
-      "$explosives"
+      "$reach_area|RAVINE_UPPER_EAST,$explosives"
     ],
     "sections": [
       {
@@ -2018,7 +2081,7 @@
   {
     "name": "MP Up Ravine",
     "access_rules": [
-      "$explosives"
+      "$reach_area|RAVINE_UPPER_EAST,$explosives"
     ],
     "sections": [
       {
@@ -2039,8 +2102,8 @@
   {
     "name": "Regen Up Ravine",
     "access_rules": [
-      "$explosives",
-      "$adv_stupid,$slide_zip"
+      "$reach_area|RAVINE_LOWER,$explosives",
+      "$reach_area|RAVINE_LOWER,$obs_ext,$two_tile_zip,$amulet"
     ],
     "sections": [
       {
@@ -2061,6 +2124,7 @@
   {
     "name": "Mana Surge",
     "access_rules": [
+      "$reach_area|RAVINE_MANA_SURGE"
     ],
     "sections": [
       {
@@ -2103,11 +2167,10 @@
     "name": "Egg Park Green Kotri",
     "access_rules": [
       "$reach_area|PARK_KOTRI,$whirl_bonk",
-      "$reach_area|PARK_KOTRI,airjump",
-      "$reach_area|PARK_KOTRI,$airdash",
+      "$reach_area|PARK_KOTRI,$five_tile_wall_climb",
       "$reach_area|PARK_KOTRI,slippers,$slide_jump_bunstrike",
-      "$reach_area|PARK_KOTRI,$adv_vhard,slippers,$amulet",
-      "$reach_area|PARK_KOTRI,$adv_vhard,slide"
+      "$reach_area|PARK_KOTRI,$adv_vhard,slide",
+      "$reach_area|PARK_KOTRI,$adv_stupid,$amulet"
     ],
     "sections": [
       {
@@ -2143,6 +2206,27 @@
         "map": "ic",
         "x": 176,
         "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Sky Bridge Above Warp",
+    "access_rules": [
+      "$reach_area|SKY_BRIDGE_MAIN"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ic",
+        "x": 240,
+        "y": 48
       }
     ]
   },
@@ -2191,6 +2275,7 @@
   {
     "name": "Egg Ravine Above Chocolate",
     "access_rules": [
+      "$reach_area|RAVINE_UPPER_WEST"
     ],
     "sections": [
       {
@@ -2211,7 +2296,7 @@
   {
     "name": "Egg Ravine Mid",
     "access_rules": [
-      "$explosives,slide"
+      "$reach_area|RAVINE_UPPER_EAST,$explosives,slide"
     ],
     "sections": [
       {
@@ -2278,7 +2363,7 @@
   {
     "name": "HP Up West Aquarium",
     "access_rules": [
-      "$reach_area|AQUARIUM_WEST,$darkness,$explosives"
+      "$reach_area|AQUARIUM_WEST_DARKNESS,$explosives"
     ],
     "sections": [
       {
@@ -2299,7 +2384,7 @@
   {
     "name": "Mana Plus",
     "access_rules": [
-      "$reach_area|AQUARIUM_WEST,$darkness"
+      "$reach_area|AQUARIUM_WEST_DARKNESS"
     ],
     "sections": [
       {
@@ -2343,7 +2428,7 @@
     "access_rules": [
       "$reach_area|SNOWLAND_WEST,$explosives,slide",
       "$reach_area|SNOWLAND_WEST,$explosives,$roll",
-      "$reach_area|SNOWLAND_WEST,$explosives,$block_clip"
+      "$reach_area|SNOWLAND_WEST,$explosives,$adv_hard,$block_clip"
     ],
     "sections": [
       {
@@ -2368,9 +2453,9 @@
       "$reach_area|PALACE_LEVEL_3,$darkness,$whirl_bonk",
       "$reach_area|PALACE_LEVEL_3,$darkness,$airdash",
       "$reach_area|PALACE_LEVEL_3,$darkness,airjump",
+      "$reach_area|PALACE_LEVEL_3,$darkness,$adv_hard,slide",
       "$reach_area|PALACE_LEVEL_3,$darkness,slippers,$itm_hard,speed",
-      "$reach_area|PALACE_LEVEL_3,$darkness,slippers,$adv_stupid",
-      "$reach_area|PALACE_LEVEL_3,$darkness,$adv_stupid,$amulet"
+      "$reach_area|PALACE_LEVEL_3,$darkness,$adv_ext"
     ],
     "sections": [
       {
@@ -2476,12 +2561,20 @@
     "name": "Gold Carrot",
     "access_rules": [
       "$reach_area|ICY_SUMMIT_UPPER,airjump",
+
+      "$reach_area|ICY_SUMMIT_UPPER,$obs_vhard,slippers,$slide_jump_bunstrike_cancel",
+      "$reach_area|ICY_SUMMIT_UPPER,$obs_stupid,$airdash,$amulet,$roll",
+      "$reach_area|ICY_SUMMIT_UPPER,$obs_stupid,$airdash,$amulet,$slide_jump_bunstrike,$whirl_bonk",
+      "$reach_area|ICY_SUMMIT_UPPER,$obs_stupid,$airdash,$amulet,slide,slippers,$whirl_bonk,walljump",
+
       "$reach_area|ICY_SUMMIT_UPPER,walljump,$whirl_bonk",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,$airdash,$hard",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,$slide_jump_bunstrike",
+      "$reach_area|ICY_SUMMIT_UPPER,walljump,$adv_hard,slide",
+      "$reach_area|ICY_SUMMIT_UPPER,walljump,$adv_ext",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,slide",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,speed,$itm_hard",
-      "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,$amulet,$adv_stupid"
+      "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,$adv_stupid"
     ],
     "sections": [
       {
@@ -2525,7 +2618,8 @@
     "access_rules": [
       "$reach_area|ICY_SUMMIT_UPPER,airjump",
       "$reach_area|ICY_SUMMIT_UPPER,$airdash",
-      "$reach_area|ICY_SUMMIT_UPPER,$whirl_bonk,$adv_hard"
+      "$reach_area|ICY_SUMMIT_UPPER,$whirl_bonk,$adv_hard",
+      "$reach_area|ICY_SUMMIT_UPPER,$adv_ext,$amulet"
     ],
     "sections": [
       {
@@ -2567,7 +2661,7 @@
   {
     "name": "Atk Up Mid Aquarium",
     "access_rules": [
-      "$reach_area|AQUARIUM_MID"
+      "$reach_area|AQUARIUM_MID_EAST"
     ],
     "sections": [
       {
@@ -2588,12 +2682,16 @@
   {
     "name": "MP Up Icy Summit",
     "access_rules": [
-      "$reach_area|ICY_SUMMIT_MAIN,$adv_stupid",
-      "$reach_area|ICY_SUMMIT_MAIN,slippers",
-      "$reach_area|ICY_SUMMIT_MAIN,airjump",
-      "$reach_area|ICY_SUMMIT_MAIN,walljump",
-      "$reach_area|ICY_SUMMIT_MAIN,$whirl_bonk",
-      "$reach_area|ICY_SUMMIT_MAIN,speed,$itm_vhard"
+      "$reach_area|ICY_SUMMIT_MAIN,$adv_ext",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm,slippers",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm,airjump",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm,$whirl_bonk",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm_hard,walljump,speed",
+      "$reach_area|ICY_SUMMIT_MAIN,$adv_hard,$airdash",
+      "$reach_area|ICY_SUMMIT_MAIN,$adv_hard,slide",
+
+      "$reach_area|ICY_SUMMIT_UPPER,slide",
+      "$reach_area|ICY_SUMMIT_UPPER,$hammer_roll_zip"
     ],
     "sections": [
       {
@@ -2635,7 +2733,7 @@
   {
     "name": "Quick Barrette",
     "access_rules": [
-      "$reach_area|SNOWLAND_LAKE"
+      "$reach_area|SNOWLAND_QUICK_BARRETTE_ROOM"
     ],
     "sections": [
       {
@@ -2698,7 +2796,7 @@
   {
     "name": "Regen Up Snowland Water",
     "access_rules": [
-      "$reach_area|SNOWLAND_LAKE"
+      "$reach_area|SNOWLAND_QUICK_BARRETTE_ROOM"
     ],
     "sections": [
       {
@@ -2866,8 +2964,8 @@
   {
     "name": "Egg Aquarium",
     "access_rules": [
-      "$reach_area|AQUARIUM_WEST,$darkness",
-      "$reach_area|AQUARIUM_WEST,slide"
+      "$reach_area|AQUARIUM_WEST_LOWER",
+      "$reach_area|AQUARIUM_WEST_LOWER"
     ],
     "sections": [
       {
@@ -2912,6 +3010,7 @@
       "$reach_area|SNOWLAND_CHRISTMAS_TREE,slippers",
       "$reach_area|SNOWLAND_CHRISTMAS_TREE,airjump",
       "$reach_area|SNOWLAND_CHRISTMAS_TREE,$airdash",
+      "$reach_area|SNOWLAND_CHRISTMAS_TREE,$slide_jump_bunstrike",
       "$reach_area|SNOWLAND_CHRISTMAS_TREE,$adv_hard"
     ],
     "sections": [
@@ -2952,6 +3051,27 @@
     ]
   },
   {
+    "name": "Egg Snowland Spikes Room",
+    "access_rules": [
+      "$reach_area|SNOWLAND_SPIKE_ROOM,$darkness"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "nt",
+        "x": 496,
+        "y": 432
+      }
+    ]
+  },
+  {
     "name": "Egg Icy Summit Warp",
     "access_rules": [
       "$reach_area|ICY_SUMMIT_MAIN,$explosives"
@@ -2979,7 +3099,8 @@
       "$reach_area|SNOWLAND_LAKE,water",
       "$reach_area|SNOWLAND_LAKE,$whirl_bonk",
       "$reach_area|SNOWLAND_LAKE,walljump",
-      "$reach_area|SNOWLAND_LAKE,$adv_stupid,$amulet"
+      "$reach_area|SNOWLAND_LAKE,$adv_vhard,$airdash",
+      "$reach_area|SNOWLAND_LAKE,$adv_ext,$amulet"
     ],
     "sections": [
       {
@@ -3004,6 +3125,7 @@
   {
     "name": "Regen Up Northwest Riverbank",
     "access_rules": [
+      "$reach_area|RIVERBANK_LEVEL3"
     ],
     "sections": [
       {
@@ -3066,6 +3188,7 @@
   {
     "name": "Atk Grow",
     "access_rules": [
+      "$reach_area|RIVERBANK_LEVEL2"
     ],
     "sections": [
       {
@@ -3105,8 +3228,35 @@
     ]
   },
   {
+    "name": "Pbpb Box",
+    "access_rules": [
+      "$reach_area|LAB_WEST,$explosives,fire,slide,airjump",
+      "$reach_area|LAB_WEST,$explosives,fire,slide,slippers,$slide_jump_bunstrike",
+      "$reach_area|LAB_WEST,$explosives,fire,slide,slippers,walljump",
+      "$reach_area|LAB_WEST,$explosives,fire,slide,slippers,$adv_hard,$airdash",
+      "$reach_area|LAB_WEST,$explosives,fire,slide,$adv_ext,$amulet",
+      "$reach_area|LAB_WEST,$explosives,fire,slide,$adv_ext,$airdash",
+    ],
+    "sections": [
+      {
+        "name": "Pbpb Box",
+        "chest_unopened_img": "images/items/pbpb_box.png",
+        "chest_opened_img": "images/items_collected/pbpb_box.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 240,
+        "y": 528
+      }
+    ]
+  },
+  {
     "name": "Atk Up Riverbank Pit",
     "access_rules": [
+      "$reach_area|RIVERBANK_MAIN_LEVEL1"
     ],
     "sections": [
       {
@@ -3129,7 +3279,7 @@
     "access_rules": [
       "$reach_area|RIVERBANK_LOWER_LEFT,hammer",
       "$reach_area|RIVERBANK_LOWER_LEFT,shooter,$adv_hard",
-      "$reach_area|RIVERBANK_LOWER_LEFT,$slide_zip"
+      "$reach_area|RIVERBANK_LOWER_LEFT,$adv_hard,$slide_zip"
     ],
     "sections": [
       {
@@ -3150,6 +3300,7 @@
   {
     "name": "Explode Shot",
     "access_rules": [
+      "$reach_area|RIVERBANK_LEVEL3"
     ],
     "sections": [
       {
@@ -3170,13 +3321,7 @@
   {
     "name": "MP Up Mid Riverbank",
     "access_rules": [
-      "$explosives",
-      "$slide_zip",
-      "airjump",
-      "walljump",
-      "$slide_jump_bunstrike_cancel,slippers",
-      "$slide_jump_bunstrike_cancel,speed",
-      "slippers,$adv_hard,speed"
+      "$reach_area|RIVERBANK_MAIN_LEVEL1,$explosives"
     ],
     "sections": [
       {
@@ -3197,7 +3342,8 @@
   {
     "name": "Atk Up East Riverbank",
     "access_rules": [
-      "$downdrill_semisolid_clip","slide,$explosives"
+      "$reach_area|RIVERBANK_MAIN_LEVEL1,$downdrill_semisolid_clip",
+      "$reach_area|RIVERBANK_MAIN_LEVEL1,$reach_area|RIVERBANK_LOWER_HEALTH_UP_ROOM,slide,$explosives"
     ],
     "sections": [
       {
@@ -3239,7 +3385,9 @@
   {
     "name": "Frame Cancel",
     "access_rules": [
-      "$explosives,slide","$explosives,$hammer_roll_zip"
+      "$reach_area|RIVERBANK_LEVEL3,$explosives,slide",
+      "$reach_area|RIVERBANK_LEVEL3,$slide_zip",
+      "$reach_area|RIVERBANK_LEVEL3,$hammer_roll_zip",
     ],
     "sections": [
       {
@@ -3302,7 +3450,11 @@
   {
     "name": "HP Up Riverbank",
     "access_rules": [
-      "$explosives","$airdash","$block_clip","hammer"
+      "$reach_area|RIVERBANK_LOWER_HEALTH_UP_ROOM,$explosives",
+      "$reach_area|RIVERBANK_LOWER_HEALTH_UP_ROOM,$whirl",
+      "$reach_area|RIVERBANK_LOWER_HEALTH_UP_ROOM,$airdash",
+      "$reach_area|RIVERBANK_LOWER_HEALTH_UP_ROOM,$block_clip",
+      "$reach_area|RIVERBANK_LOWER_HEALTH_UP_ROOM,$itm,hammer"
     ],
     "sections": [
       {
@@ -3323,13 +3475,16 @@
   {
     "name": "MP Up Evernight",
     "access_rules": [
-      "$darkness,slide,airjump,slippers",
-      "$darkness,slide,airjump,$airdash",
-      "$darkness,slide,airjump,$itm_hard",
-      "$darkness,slide,$whirl_bonk",
-      "$darkness,slide,slippers,$airdash",
-      "$darkness,slide,$strike,$airdash,$itm_hard",
-      "$darkness,slide,$adv_stupid,$amulet"
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,airjump,slippers",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,airjump,$airdash",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,airjump,$itm_hard",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,$whirl_bonk",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,slippers,$airdash",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,$slide_jump_bunstrike_cancel,$airdash",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,$adv_vhard,$airdash",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,$adv_vhard,walljump",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,$adv_ext,$amulet",
+      "$reach_area|EVERNIGHT_WARP,$darkness,slide,$adv_stupid"
     ],
     "sections": [
       {
@@ -3350,7 +3505,7 @@
   {
     "name": "HP Up Evernight",
     "access_rules": [
-      "$explosives"
+      "$reach_area|EVERNIGHT_NORTHWEST,$explosives"
     ],
     "sections": [
       {
@@ -3371,7 +3526,8 @@
   {
     "name": "HP Up Lab Pit",
     "access_rules": [
-      "bomb"
+      "$reach_area|LAB_MID,bomb",
+      "$reach_area|LAB_MID,$obs_vhard,hammer,shooter"
     ],
     "sections": [
       {
@@ -3413,8 +3569,9 @@
   {
     "name": "Atk Up Evernight UPRPRC",
     "access_rules": [
-      "slide,$explosives",
-      "slide,$downdrill_semisolid_clip"
+      "$reach_area|EVERNIGHT_NORTHWEST,slide,$explosives",
+      "$reach_area|EVERNIGHT_NORTHWEST,slide,$downdrill_semisolid_clip",
+      "$reach_area|EVERNIGHT_NORTHWEST,$two_tile_downdrill_semisolid_clip"
     ],
     "sections": [
       {
@@ -3435,6 +3592,7 @@
   {
     "name": "Cashback",
     "access_rules": [
+      "$reach_area|EVERNIGHT_LOWER"
     ],
     "sections": [
       {
@@ -3455,6 +3613,7 @@
   {
     "name": "Plus Necklace",
     "access_rules": [
+      "$reach_area|EVERNIGHT_WARP"
     ],
     "sections": [
       {
@@ -3475,6 +3634,7 @@
   {
     "name": "Weaken",
     "access_rules": [
+      "$reach_area|LAB_ENTRANCE"
     ],
     "sections": [
       {
@@ -3495,7 +3655,8 @@
   {
     "name": "Atk Up Lab Computer",
     "access_rules": [
-      "$explosives","$block_clip"
+      "$reach_area|LAB_EAST,$explosives",
+      "$reach_area|LAB_EAST,$block_clip"
     ],
     "sections": [
       {
@@ -3516,7 +3677,7 @@
   {
     "name": "Pack Up South Evernight",
     "access_rules": [
-      "$explosives"
+      "$reach_area|EVERNIGHT_LOWER,$explosives"
     ],
     "sections": [
       {
@@ -3537,11 +3698,8 @@
   {
     "name": "Pack Up North Evernight",
     "access_rules": [
-      "$airdash",
-      "airjump",
-      "$slide_jump_bunstrike",
-      "$adv_hard,slippers,$amulet",
-      "$adv_stupid,walljump,$amulet"
+      "$reach_area|EVERNIGHT_NORTHWEST,$slide_jump_bunstrike",
+      "$reach_area|EVERNIGHT_NORTHWEST,$five_tile_wall_climb"
     ],
     "sections": [
       {
@@ -3562,7 +3720,8 @@
   {
     "name": "Regen Up Evernight",
     "access_rules": [
-      "$explosives"
+      "$reach_area|EVERNIGHT_SAYA,$explosives",
+      "$reach_area|EVERNIGHT_NORTHWEST,slide,$explosives"
     ],
     "sections": [
       {
@@ -3583,6 +3742,8 @@
   {
     "name": "Atk Up Evernight",
     "access_rules": [
+      "$reach_area|EVERNIGHT_CORRIDOR_BELOW_SAYA",
+      "$reach_area|EVERNIGHT_EAST_OF_WARP,$adv_ext,$whirl_bonk"
     ],
     "sections": [
       {
@@ -3603,11 +3764,7 @@
   {
     "name": "Atk Up East Lab",
     "access_rules": [
-      "$reach_area|LAB_EAST,$explosives,airjump",
-      "$reach_area|LAB_EAST,$explosives,$airdash",
-      "$reach_area|LAB_EAST,$explosives,slippers,$adv_vhard",
-      "$reach_area|LAB_EAST,$explosives,slippers,$slide_jump_bunstrike",
-      "$reach_area|LAB_ENTRANCE,$explosives,$hammer_roll_zip"
+      "$reach_area|LAB_EAST_ATK_UP_ROOM,$explosives"
     ],
     "sections": [
       {
@@ -3649,7 +3806,7 @@
   {
     "name": "Hammer Roll",
     "access_rules": [
-      "$whirl"
+      "$reach_area|EVERNIGHT_EAST_OF_WARP,$whirl"
     ],
     "sections": [
       {
@@ -3670,7 +3827,7 @@
   {
     "name": "Egg Riverbank Spider Spike",
     "access_rules": [
-      "$explosives"
+      "$reach_area|RIVERBANK_LEVEL3,$explosives"
     ],
     "sections": [
       {
@@ -3691,12 +3848,12 @@
   {
     "name": "Egg Riverbank Wall",
     "access_rules": [
-      "$whirl_bonk",
-      "airjump",
-      "$airdash",
-      "slide",
-      "$adv_vhard,slippers,$amulet",
-      "$adv_stupid,walljump,$amulet"
+      "$reach_area|RIVERBANK_LEVEL2,$whirl_bonk",
+
+      "$reach_area|RIVERBANK_LEVEL2,$slide_jump_bunstrike",
+      "$reach_area|RIVERBANK_LEVEL2,$adv_hard,slide",
+      "$reach_area|RIVERBANK_LEVEL2,$five_tile_wall_climb",
+      "$reach_area|RIVERBANK_LEVEL2,$adv_stupid,$amulet"
     ],
     "sections": [
       {
@@ -3717,6 +3874,7 @@
   {
     "name": "Egg Lab",
     "access_rules": [
+      "$reach_area|LAB_MID"
     ],
     "sections": [
       {
@@ -3735,9 +3893,31 @@
     ]
   },
   {
+    "name": "Egg Lab Entrance",
+    "access_rules": [
+      "$reach_area|LAB_ENTRANCE,slide,$five_tile_wall_climb",
+      "$reach_area|LAB_ENTRANCE,slide,$slide_jump_bunstrike"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "eh",
+        "x": 528,
+        "y": 432
+      }
+    ]
+  },
+  {
     "name": "Egg Evernight Mid",
     "access_rules": [
-      "$explosives"
+      "$reach_area|EVERNIGHT_NORTHWEST,$explosives"
     ],
     "sections": [
       {
@@ -3758,11 +3938,11 @@
   {
     "name": "Egg Evernight Saya",
     "access_rules": [
-      "$adv_stupid",
-      "airjump",
-      "$slide_jump_bunstrike",
-      "$whirl_bonk",
-      "slippers,$airdash"
+      "$reach_area|EVERNIGHT_SAYA,$adv_ext",
+      "$reach_area|EVERNIGHT_SAYA,airjump",
+      "$reach_area|EVERNIGHT_SAYA,$slide_jump_bunstrike",
+      "$reach_area|EVERNIGHT_SAYA,$whirl_bonk",
+      "$reach_area|EVERNIGHT_SAYA,slippers,$airdash"
     ],
     "sections": [
       {
@@ -3787,8 +3967,9 @@
   {
     "name": "Egg Town",
     "access_rules": [
-      "airjump,slippers",
-      "airjump,$slide_jump_bunstrike_cancel"
+      "$reach_area|TOWN_MAIN,airjump,slippers",
+      "$reach_area|TOWN_MAIN,airjump,$slide_jump_bunstrike_cancel",
+      "$reach_area|TOWN_MAIN,airjump,$slide_jump_bunstrike,$obs_vhard"
     ],
     "sections": [
       {
@@ -3809,6 +3990,7 @@
   {
     "name": "Town Gift Items",
     "access_rules": [
+      "$reach_area|TOWN_SHOP"
     ],
     "sections": [
       {
@@ -3823,7 +4005,7 @@
         "chest_opened_img": "images/items_collected/bunny_strike.png",
         "item_count": 1,
         "access_rules": [
-          "slide"
+          "slide,$reach_area|SPECTRAL_CICINI_ROOM"
         ]
       }
     ],
@@ -3952,7 +4134,7 @@
     "name": "Fire Orb",
     "access_rules": [
       "$reach_area|VOLCANIC_MAIN,$explosives",
-      "$reach_area|VOLCANIC_MAIN,fire"
+      "$reach_area|VOLCANIC_MAIN,$itm,fire"
     ],
     "sections": [
       {
@@ -4038,13 +4220,15 @@
     "access_rules": [
       "$reach_area|VOLCANIC_MAIN,airjump",
       "$reach_area|VOLCANIC_MAIN,$airdash",
-      "$reach_area|VOLCANIC_MAIN,$strike",
-      "$reach_area|VOLCANIC_MAIN,$adv_stupid,$amulet",
+      "$reach_area|VOLCANIC_MAIN,$slide_jump_bunstrike",
+      "$reach_area|VOLCANIC_MAIN,$adv_ext",
       "$reach_area|VOLCANIC_MAIN,$whirl_bonk",
       "$reach_area|VOLCANIC_MAIN,slide,slippers",
       "$reach_area|VOLCANIC_MAIN,slide,walljump",
       "$reach_area|VOLCANIC_MAIN,slide,itm_hard",
-      "$reach_area|VOLCANIC_MAIN,slippers,walljump"
+      "$reach_area|VOLCANIC_MAIN,itm_hard,speed",
+      "$reach_area|VOLCANIC_MAIN,slippers,walljump",
+      "$reach_area|VOLCANIC_MAIN,$adv_vhard,walljump"
     ],
     "sections": [
       {
@@ -4092,15 +4276,16 @@
   {
     "name": "Regen Up Cyberspace",
     "access_rules": [
-      "bomb,airjump,$itm_hard",
-      "bomb,airjump,slippers",
-      "bomb,$airdash",
-      "bomb,$slide_jump_bunstrike",
-      "bomb,$adv_stupid",
-      "shooter,$adv_hard,airjump",
-      "shooter,$adv_hard,$airdash",
-      "shooter,$adv_hard,$slide_jump_bunstrike",
-      "shooter,$adv_stupid"
+      "$reach_area|SYSTEM_INTERIOR_MAIN,bomb,$airdash",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,bomb,airjump,slippers",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,bomb,airjump,$hard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,bomb,$slide_jump_bunstrike",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,bomb,$adv_ext",
+
+      "$reach_area|SYSTEM_INTERIOR_MAIN,shooter,$adv_hard,airjump",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,shooter,$adv_hard,$airdash",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,shooter,$adv_hard,$slide_jump_bunstrike",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,shooter,$adv_ext"
     ],
     "sections": [
       {
@@ -4121,6 +4306,7 @@
   {
     "name": "Pack Up Cyberspace",
     "access_rules": [
+      "$reach_area|SYSTEM_INTERIOR_MAIN"
     ],
     "sections": [
       {
@@ -4141,6 +4327,7 @@
   {
     "name": "Air Jump",
     "access_rules": [
+      "$reach_area|SYSTEM_INTERIOR_MAIN"
     ],
     "sections": [
       {
@@ -4161,16 +4348,20 @@
   {
     "name": "HP Up Cyberspace",
     "access_rules": [
-      "slide,bomb,airjump,slippers",
-      "slide,bomb,airjump,$itm_hard",
-      "slide,bomb,$airdash,$itm_hard",
-      "slide,bomb,walljump,slippers,$adv_vhard",
-      "slide,bomb,walljump,$adv_stupid",
-      "slide,bomb,$whirl_bonk,$itm_vhard",
-      "$adv_stupid,$slide_zip,$hammer_roll_zip,airjump",
-      "$adv_stupid,$slide_zip,$hammer_roll_zip,$airdash",
-      "$adv_stupid,$slide_zip,$hammer_roll_zip,walljump",
-      "$adv_stupid,$slide_zip,$hammer_roll_zip,$whirl_bonk"
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,airjump,$airdash",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,airjump,slippers",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,airjump,$itm_hard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,$airdash,$itm_hard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,walljump,slippers,$airdash",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,walljump,$adv_vhard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,$adv_stupid",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,bomb,$whirl_bonk,$itm_vhard",
+
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,airjump,$itm_hard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$airdash,$itm_hard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,walljump,$adv_vhard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$adv_stupid",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$whirl_bonk,$itm_vhard",
     ],
     "sections": [
       {
@@ -4191,8 +4382,8 @@
   {
     "name": "Atk Up Cyberspace",
     "access_rules": [
-      "bomb",
-      "shooter,$adv_hard"
+      "$reach_area|SYSTEM_INTERIOR_MAIN,bomb",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,shooter,$adv_hard"
     ],
     "sections": [
       {
@@ -4213,6 +4404,7 @@
   {
     "name": "MP Up Cyberspace",
     "access_rules": [
+      "$reach_area|SYSTEM_INTERIOR_MAIN"
     ],
     "sections": [
       {
@@ -4233,6 +4425,7 @@
   {
     "name": "Egg System Interior",
     "access_rules": [
+      "$reach_area|SYSTEM_INTERIOR_MAIN"
     ],
     "sections": [
       {

@@ -76,7 +76,6 @@ function incrementItem(item_code, item_type, multiplier)
 	end
 end
 
--- apply everything needed from slot_data, called from onClear
 
 map_transition_order = {
 	[1] = 0,
@@ -94,10 +93,29 @@ map_transition_order = {
 	[13] = 12
 }
 
+picked_templates = {}
+
+shuffle_start_location = false
+start_location = "Forest Start"
+
+-- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
 	for k,v in pairs(slot_data["map_transition_shuffle_order"]) do
 		map_transition_order[k] = v
+		print("order")
+		print(dump_table(map_transition_order))
+	end
+	
+	shuffle_start_location = slot_data["shuffle_start_location"]
+	if shuffle_start_location then
+		start_location = slot_data["start_location"]
+		print(string.format("Start Location: %s",start_location))
+	end
+
+	picked_templates = {}
+	for k,v in pairs(slot_data["picked_templates"]) do
+		picked_templates[k] = v
 	end
 end
 
