@@ -29,7 +29,7 @@ function speed(target)
     if has_item("speed") then
         value = 5 
     end
-    return value >= target
+    return value >= tonumber(target)
 end
 
 --knowledge and difficulty

@@ -471,12 +471,19 @@ local function table_has (t, x)
 end
 
 
-
-PRINT_TRANSITIONS = false
-PRINT_AREA_CALCULATION = false
-
 --called every frame
+delay = 0
+
 function calculate_areas()
+
+	--5 frame delay
+	if delay < 5 then
+		delay = delay + 1
+		return
+	else
+		delay = 0
+	end
+
     Tracker.BulkUpdate = true
     --clear area items
     for k,v in pairs(area_list) do
@@ -1655,8 +1662,8 @@ function calculate_map_connections()
         map_transitions[default_transition_entrances[v+1]] = default_transition_exits[k]
         map_transitions_rev[default_transition_exits[k]] = default_transition_entrances[v+1]
     end
-	print(dump_table(map_transitions))
-	print(dump_table(map_transitions_rev))
+	--print(dump_table(map_transitions))
+	--print(dump_table(map_transitions_rev))
 end
 
 function add_transitions_to_edges()
@@ -1836,7 +1843,7 @@ function get_constraint_changes()
 		for k,v in pairs(picked_templates) do
 			constraints[v] = true
 		end
-		print(dump_table(constraints))
+		--print(dump_table(constraints))
 	end
 end
 
@@ -1847,6 +1854,7 @@ end
 function not_picked(name)
 	return not constraints[name]
 end
+
 
 --call calculate area function every frame
 
