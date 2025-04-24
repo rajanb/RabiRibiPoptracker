@@ -84,6 +84,12 @@
     "img": "images/items/bunny_strike.png",
     "codes": "strike"
   },
+  {
+    "name": "Bunny Amulet",
+    "type": "toggle",
+    "img": "images/items/bunny_amulet.png",
+    "codes": "amulet"
+  },
 
   {
     "name": "HP Up",

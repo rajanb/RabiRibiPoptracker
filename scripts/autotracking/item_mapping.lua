@@ -17,6 +17,7 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 0x15] = { {"speed"} },
 	[BASE_ITEM_ID + 0x18] = { {"walljump"} },
 	[BASE_ITEM_ID + 0x19] = { {"water"} },
+	[BASE_ITEM_ID + 0x47] = { {"amulet"} },
 
 	[BASE_ITEM_ID + 0x1A] = { {"beam"} },
 	[BASE_ITEM_ID + 0x1B] = { {"rod"} },

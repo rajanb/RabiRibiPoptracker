@@ -21,7 +21,15 @@ function strike()
 end
 
 function amulet()
-    return reach_area("TOWN_MAIN")
+    return has_item("amulet")
+end
+
+function speed(target)
+    value = 0
+    if has_item("speed") then
+        value = 5 
+    end
+    return value >= target
 end
 
 --knowledge and difficulty

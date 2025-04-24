@@ -548,7 +548,7 @@ function forest_cocoa_room()
 end
 
 function forest_upper_east()
-    return (reach_area("FOREST_EAST_ABOVE_SPRING") and (itm_hard() or (has_item("speed") and itm()) or airdash() or has_item("airjump") or has_item("slippers"))) or
+    return (reach_area("FOREST_EAST_ABOVE_SPRING") and (itm_hard() or (speed(1) and itm()) or airdash() or has_item("airjump") or has_item("slippers"))) or
 		(reach_area("FOREST_LIGHT_ORB_ROOM") and darkness() and (explosives() and (has_item("slide") or hammer_roll_zip())) or two_tile_zip()) or
 		(reach_area("FOREST_UPPER_EAST_EGG_LEDGE") and (three_tile_zip() or (explosives() and (adv_vhard() or (itm_hard() and amulet()) or
 			whirl_bonk() or has_item("slippers") or slide_jump_bunstrike() or has_item("airjump") or airdash()))))
@@ -599,8 +599,8 @@ function forest_night_atk_up_room()
             (adv_vhard() and four_tile_zip() and has_item("airjump")) or
 			(adv_ext() and has_item("slide") and (has_item("airjump") or has_item("walljump"))) or
 			(adv_stupid() and has_item("slide") and (has_item("slippers") or has_item("walljump"))) or
-			(obs_stupid() and (has_item("slippers") and has_item("walljump") and airdash() and has_item("speed") and amulet()) or
-			(has_item("airjump") and has_item("speed"))))) or
+			(obs_stupid() and (has_item("slippers") and has_item("walljump") and airdash() and speed(5) and amulet()) or
+			(has_item("airjump") and speed(5))))) or
         (reach_area("FOREST_NIGHT_WEST") and explosives())
 end
 
@@ -670,18 +670,18 @@ function spectral_mid()
 	return (reach_area("SPECTRAL_UPPER") and (has_item("slide") or hammer_roll_zip())) or
         (reach_area("SPECTRAL_WARP") and slide_zip()) or 
 		(reach_area("SPECTRAL_GAP_LEDGE") and (slide_jump_bunstrike() or (has_item("airjump") and (airdash() or adv_vhard())) or 
-			(adv_ext() and amulet() and has_item("speed")) or (obs_stupid() and roll() and (amulet() or airdash() or has_item("slippers"))) or
+			(adv_ext() and amulet() and (speed(5) or (speed(2) and stupid()))) or (obs_stupid() and roll() and (amulet() or airdash() or has_item("slippers"))) or
 			(has_item("slide") and ((adv_ext() and airdash()) or (adv_stupid() and has_item("slippers")))))) or
         (reach_area("SPECTRAL_WEST_EGG_ROOM") and ((has_item("airjump") and (airdash() or slide_jump_bunstrike() or
-			(has_item("slippers") and has_item("speed") and adv_vhard()))) or (slide_jump_bunstrike_cancel() and has_item("slippers") and airdash()) or
+			(has_item("slippers") and speed(5) and adv_vhard()))) or (slide_jump_bunstrike_cancel() and has_item("slippers") and airdash()) or
 			(adv_vhard() and airdash())))
 end
 
 function spectral_gap_ledge()
 	return (reach_area("SPECTRAL_MID") and (has_item("airjump") or airdash() or (itm_hard() and (amulet() or strike())) or itm_vhard())) or
 		(reach_area("SPECTRAL_WEST_EGG_ROOM") and ((has_item("airjump") and (airdash() or (itm() and has_item("slide")) or
-			(adv_vhard() and (has_item("slippers") or has_item("speed") or amulet())) or adv_ext())) or (itm_hard() and airdash()) or 
-			(slide_jump_bunstrike() and (airdash() or has_item("speed") or adv_ext())))) or
+			(adv_vhard() and (has_item("slippers") or speed(1) or amulet())) or adv_ext())) or (itm_hard() and airdash()) or 
+			(slide_jump_bunstrike() and (airdash() or speed(5) or adv_ext())))) or
 		(reach_area("SPECTRAL_WEST") and (((has_item("slippers") or slide_jump_bunstrike_cancel()) and has_item("airjump") and airdash()) or
 			(adv_vhard() and roll() and (airdash() or has_item("airjump"))) or (adv_ext() and whirl_bonk()) or
 			(adv_ext() and has_item("slippers") and airdash() and has_item("walljump"))))
@@ -776,8 +776,8 @@ function graveyard_upper()
 			(airdash() and (itm_hard() or has_item("slippers"))) or adv_vhard()) and
             (has_item("airjump") or has_item("slippers") or (has_item("walljump") and itm_hard()) or whirl_bonk_cancel() or slide_jump_bunstrike_cancel() or 
             (adv_vhard() and roll()) or (adv_stupid() and (has_item("slide") or whirl_bonk()))))) or
-        (reach_area("GRAVEYARD_TOP_OF_BRIDGE") and (itm() and has_item("airjump") and ((has_item("slippers") and (airdash() or (itm_hard() and (has_item("speed") or
-			has_item("slide"))) or (adv_vhard() and has_item("speed") and (has_item("walljump") or amulet() or stupid())))) or (strike() and ((hard() and amulet()) or 
+        (reach_area("GRAVEYARD_TOP_OF_BRIDGE") and (itm() and has_item("airjump") and ((has_item("slippers") and (airdash() or (itm_hard() and (speed(3) or
+			has_item("slide"))) or (adv_vhard() and speed(1) and (has_item("walljump") or amulet() or stupid())))) or (strike() and ((hard() and amulet()) or 
 			obs_vhard())))))
 end
 
@@ -805,10 +805,10 @@ function sky_island_air_dash_room()
 end
 
 function sky_island_upper()
-	return reach_area("SKY_ISLAND_MAIN") and ((hard() and slide_jump_bunstrike()) or (has_item("airjump") and ((has_item("slippers") and has_item("speed")) or
+	return reach_area("SKY_ISLAND_MAIN") and ((hard() and slide_jump_bunstrike()) or (has_item("airjump") and ((has_item("slippers") and speed(1)) or
 			airdash() or has_item("walljump") or has_item("slide") or itm_hard())) or (airdash() and (has_item("walljump") or adv_hard())) or (adv_ext() and 
-			airdash() and amulet() and ((has_item("walljump") and (has_item("speed") or stupid())) or (amulet() and stupid()))) or
-			(adv_stupid() and has_item("walljump") and (has_item("slippers") and has_item("speed") and amulet())) or 
+			airdash() and amulet() and ((has_item("walljump") and (speed(2) or stupid())) or (amulet() and stupid()))) or
+			(adv_stupid() and has_item("walljump") and (has_item("slippers") and speed(5) and amulet())) or 
 			(adv_vhard() and has_item("slide") and has_item("slippers") and ((has_item("walljump") and airdash() and (amulet() or obs())) or
 			(extreme() and has_item("walljump") and amulet()) or (extreme() and airdash() and (amulet() or stupid())) or (stupid() and has_item("walljump") and amulet()))))
 end
@@ -924,15 +924,16 @@ function ravine_upper_west()
 		(reach_area("RAVINE_NORTH_ATTACK_UP_ROOM") and (has_item("slide") and eight_tile_walljump())) or
 		(reach_area("RAVINE_ABOVE_CHOCOLATE") and ((has_item("airjump") or ((itm() and airdash()) and (has_item("slippers") or (adv_hard() and amulet()))) or
 			(adv_vhard() and (airdash() or (slide_jump_bunstrike() and (has_item("slippers") or amulet())) or (amulet() and has_item("slippers") and
-			has_item("slide")))) or (adv_ext() and ((amulet() and has_item("speed")) or (has_item("slippers") and has_item("walljump") and amulet()) or
+			has_item("slide")))) or (adv_ext() and ((amulet() and (speed(5) or (stupid() and speed(3)))) or (has_item("slippers") and has_item("walljump") and amulet()) or
 			(amulet() and has_item("slide") and has_item("walljump")))) or (obs_stupid() and amulet() and roll())) and
 			(airdash() or has_item("airjump") or has_item("slippers") or slide_jump_bunstrike() or adv_vhard())))
 end
 
 function ravine_north_attack_up_room()
 	return (reach_area("RAVINE_UPPER_WEST") and (has_item("slide") or hammer_roll_zip())) or
-        (reach_area("RAVINE_UPPER_EAST") and (adv_vhard() and ((has_item("walljump") and has_item("airjump") and has_item("speed")) or
-            (slide_jump_bunstrike_cancel() and ((has_item("slippers") and has_item("walljump")) or (obs_ext() and has_item("airjump")))) )))
+        (reach_area("RAVINE_UPPER_EAST") and (adv_vhard() and ((has_item("walljump") and has_item("airjump") and (has_item("slide") or speed(5) or
+			(speed(2) and extreme()) or obs_ext())) or (slide_jump_bunstrike_cancel() and ((has_item("slippers") and has_item("walljump")) or
+			(obs_ext() and has_item("airjump")))))))
 end
 
 function ravine_above_chocolate()
@@ -944,11 +945,11 @@ end
 
 function ravine_chocolate()
 	return reach_area("RAVINE_ABOVE_CHOCOLATE") or
-		(reach_area("RAVINE_LOWER") and ((has_item("airjump") and ((itm() and has_item("speed")) or airdash() or adv_vhard())) or whirl_bonk() or 
-			(adv_hard() and has_item("slippers") and has_item("walljump") and airdash() and (has_item("slide") or has_item("speed"))) or
+		(reach_area("RAVINE_LOWER") and ((has_item("airjump") and ((itm() and speed(1)) or airdash() or adv_vhard())) or whirl_bonk() or 
+			(adv_hard() and has_item("slippers") and has_item("walljump") and airdash() and (has_item("slide") or speed(5))) or
 			(adv_vhard() and has_item("slippers") and has_item("walljump")) or
-			(adv_ext() and (has_item("slippers") or (has_item("slide") and (has_item("speed") or airdash())) or (has_item("walljump") and airdash() and amulet()))) or
-			(adv_stupid() and has_item("speed") and has_item("walljump") and airdash() and amulet())))
+			(adv_ext() and (has_item("slippers") or (has_item("slide") and (speed(2) or airdash())) or (has_item("walljump") and airdash() and amulet()))) or
+			(adv_stupid() and speed(3) and has_item("walljump") and airdash() and amulet())))
 end
 
 function park_warp()
@@ -1093,7 +1094,7 @@ function snowland_christmas_tree()
 			(has_item("airjump") and (airdash() or slide_jump_bunstrike_cancel())) or
             (adv_ext() and ((slide_jump_bunstrike_cancel() and amulet() and has_item("walljump") and airdash()) or
 			(has_item("airjump") and has_item("slide") and amulet()))) or
-			(adv_stupid() and has_item("airjump") and ((has_item("walljump") and amulet()) or (has_item("speed") and amulet()))) or
+			(adv_stupid() and has_item("airjump") and ((has_item("walljump") and amulet()) or (speed(5) and amulet()))) or
             (whirl_bonk() and (adv_vhard() or has_item("airjump"))))) or
         (reach_area("PALACE_LEVEL_3") and obs_stupid() and four_tile_zip() and has_item("slippers")) or
 		(reach_area("PALACE_LEVEL_5") and (itm() or has_item("airjump") or airdash()))
@@ -1151,7 +1152,7 @@ function palace_level_3()
 	return reach_area("PALACE_WARP_LEVEL_1_2") or
 		(reach_area("PALACE_ATTACK_UP_TUNNEL") and (has_item("airjump") or (has_item("walljump") and (itm_vhard() or has_item("slippers"))) or
 			(has_item("slippers") and slide_jump_bunstrike_cancel() and amulet()) or (itm_hard() and has_item("walljump") and has_item("slippers") and 
-			(has_item("speed") or adv_hard())) or whirl_bonk_cancel())) or
+			(speed(1) or adv_hard())) or whirl_bonk_cancel())) or
 		reach_area("PALACE_LEVEL_4")
 end
 
@@ -1237,7 +1238,8 @@ end
 function aquarium_bomb_walled_area()
 	return (reach_area("AQUARIUM_EAST") and (explosives() or (has_item("water") and hammer_roll_zip()) or (has_item("water") and slide_zip() and obs_vhard()))) or
         (reach_area("AQUARIUM_ORB_SLIDE_MAZE") and explosives()) or
-        (reach_area("AQUARIUM_BEACH_ENTRANCE") and (underwater() and ((has_item("shooter") and option_enabled("carrot_shooter_logic")) or (has_item("bomb") and has_item("slide")))))
+        (reach_area("AQUARIUM_BEACH_ENTRANCE") and ((underwater() and ((has_item("shooter") and option_enabled("carrot_shooter_logic")) or (has_item("bomb") and
+			has_item("slide"))))))
 end
 
 function aquarium_orb_slide_maze()
@@ -1247,7 +1249,7 @@ end
 
 function aquarium_beach_entrance()
 	return transition_to("AQUARIUM_BEACH_ENTRANCE") or
-        (reach_area("AQUARIUM_BOMB_WALLED_AREA") and (explosives() or (adv_stupid() and slide_zip())))
+        (reach_area("AQUARIUM_BOMB_WALLED_AREA") and ((explosives() or (adv_stupid() and slide_zip()))))
 end
 
 --eastern highlands
@@ -1332,7 +1334,7 @@ end
 
 function evernight_spike_barrier_room()
 	return reach_area("EVERNIGHT_NORTHWEST") and (has_item("airjump") or strike() or airdash() or whirl_bonk() or (has_item("slide") and
-            (itm_hard() or has_item("slippers"))) or (adv_vhard() and amulet()) or (adv_stupid() and has_item("slippers") and has_item("speed")))
+            (itm_hard() or has_item("slippers"))) or (adv_vhard() and amulet()) or (adv_stupid() and has_item("slippers") and speed(5)))
 end
 
 function evernight_saya()
@@ -1348,16 +1350,16 @@ end
 function evernight_corridor_below_saya()
 	return reach_area("EVERNIGHT_SAYA") or
 		(reach_area("EVERNIGHT_EAST_OF_WARP") and ((itm() and has_item("fire") and (has_item("slippers") or has_item("airjump") or (itm_hard() and
-			(has_item("slide") or airdash() or has_item("speed"))) or (vhard() and whirl_bonk()) or adv_ext())) or (has_item("airjump") and
+			(has_item("slide") or airdash() or speed(1))) or (vhard() and whirl_bonk()) or adv_ext())) or (has_item("airjump") and
 			(has_item("slippers") or slide_jump_bunstrike_cancel() or (itm_hard() and roll()) or (adv_vhard() and airdash()) or (adv_ext() and
 			has_item("slide")))) or whirl_bonk_cancel() or (adv_stupid() and roll()) or (adv_vhard() and has_item("walljump") and ((has_item("slide") and
-			(has_item("slippers") or adv_stupid())) or ((has_item("speed") or adv_ext()) and (has_item("slippers") or has_item("airjump")))))))
+			(has_item("slippers") or adv_stupid())) or ((speed(5) or adv_ext()) and (has_item("slippers") or has_item("airjump")))))))
 end
 
 function evernight_east_of_warp()
 	return reach_area("EVERNIGHT_CORRIDOR_BELOW_SAYA") or
 		(reach_area("EVERNIGHT_LOWER") and (itm() and ((has_item("airjump") and (adv_vhard() or airdash() or has_item("slide") or (itm_hard() and
-			has_item("speed")))) or	(adv_hard() and ((airdash() and amulet()) or (has_item("slippers") and airdash() and (has_item("walljump") or
+			speed(3)))) or	(adv_hard() and ((airdash() and amulet()) or (has_item("slippers") and airdash() and (has_item("walljump") or
 			(adv_vhard() and amulet()))))) or (adv_ext() and airdash() and amulet()) or (adv_stupid() and has_item("walljump") and amulet())))) or
 		(reach_area("EVERNIGHT_WARP") and ((itm() and has_item("fire")) or ((has_item("slide") or hammer_roll_zip()) and (has_item("slippers") or
 		has_item("airjump") or airdash() or slide_jump_bunstrike() or adv_vhard()))))
@@ -1389,8 +1391,8 @@ function lab_mid()
 		reach_area("LAB_EAST") or
 		reach_area("LAB_ENTRANCE") or
 		(reach_area("LAB_SLIDING_POWDER_ROOM") and ((has_item("walljump") and (has_item("airjump") or (adv_vhard() and slide_jump_bunstrike_cancel() and 
-			(airdash() or has_item("slippers") or has_item("speed"))) or (adv_hard() and slide_jump_bunstrike_cancel() and airdash() and has_item("slippers")))) or
-			(itm_hard() and has_item("airjump") and (((has_item("slippers") or slide_jump_bunstrike_cancel()) and (has_item("speed") or airdash() or vhard())) or
+			(airdash() or has_item("slippers") or speed(5) or (extreme() and speed(3)) or (stupid() and speed(2)))) or (adv_hard() and slide_jump_bunstrike_cancel() and airdash() and has_item("slippers")))) or
+			(itm_hard() and has_item("airjump") and (((has_item("slippers") or slide_jump_bunstrike_cancel()) and (speed(3) or airdash() or vhard())) or
 			((has_item("slippers") or obs_vhard()) and slide_jump_bunstrike_cancel())))))
 end
 
@@ -1840,6 +1842,10 @@ end
 
 function picked(name)
 	return constraints[name]
+end
+
+function not_picked(name)
+	return not constraints[name]
 end
 
 --call calculate area function every frame

@@ -302,7 +302,7 @@
       "$reach_area|FOREST_WARP,airjump",
       "$reach_area|FOREST_WARP,slippers,walljump",
       "$reach_area|FOREST_WARP,$itm_hard,walljump",
-      "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,speed",
+      "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,$speed|2",
       "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,walljump",
       "$reach_area|FOREST_WARP,slippers,$slide_jump_bunstrike_cancel,$itm_vhard",
       "$reach_area|FOREST_WARP,$adv_hard,$whirl_bonk_cancel",
@@ -1527,7 +1527,8 @@
       "$reach_area|GRAVEYARD_UPPER,airjump",
       "$reach_area|GRAVEYARD_UPPER,$airdash",
       "$reach_area|GRAVEYARD_UPPER,$slide_jump_bunstrike",
-      "$reach_area|GRAVEYARD_UPPER,slippers,speed,$itm",
+      "$reach_area|GRAVEYARD_UPPER,slippers,$speed|5,$itm",
+      "$reach_area|GRAVEYARD_UPPER,slippers,$speed|3,$adv_hard",
       "$reach_area|GRAVEYARD_UPPER,slippers,slide",
       "$reach_area|GRAVEYARD_UPPER,$adv_vhard,slide",
       "$reach_area|GRAVEYARD_UPPER,$adv_ext,$amulet,slippers"
@@ -1823,7 +1824,7 @@
       "$reach_area|PARK_MAIN,slide",
       "$reach_area|PARK_MAIN,$airdash",
       "$reach_area|PARK_MAIN,airjump",
-      "$reach_area|PARK_MAIN,$itm,speed",
+      "$reach_area|PARK_MAIN,$itm,$speed|2",
       "$reach_area|PARK_MAIN,$adv_vhard,$amulet",
       "$reach_area|PARK_MAIN,$obs_ext"
     ],
@@ -2454,7 +2455,7 @@
       "$reach_area|PALACE_LEVEL_3,$darkness,$airdash",
       "$reach_area|PALACE_LEVEL_3,$darkness,airjump",
       "$reach_area|PALACE_LEVEL_3,$darkness,$adv_hard,slide",
-      "$reach_area|PALACE_LEVEL_3,$darkness,slippers,$itm_hard,speed",
+      "$reach_area|PALACE_LEVEL_3,$darkness,slippers,$itm_hard,$speed|2",
       "$reach_area|PALACE_LEVEL_3,$darkness,$adv_ext"
     ],
     "sections": [
@@ -2573,7 +2574,7 @@
       "$reach_area|ICY_SUMMIT_UPPER,walljump,$adv_hard,slide",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,$adv_ext",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,slide",
-      "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,speed,$itm_hard",
+      "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,$speed|1,$itm_hard",
       "$reach_area|ICY_SUMMIT_UPPER,walljump,slippers,$adv_stupid"
     ],
     "sections": [
@@ -2686,7 +2687,9 @@
       "$reach_area|ICY_SUMMIT_MAIN,$itm,slippers",
       "$reach_area|ICY_SUMMIT_MAIN,$itm,airjump",
       "$reach_area|ICY_SUMMIT_MAIN,$itm,$whirl_bonk",
-      "$reach_area|ICY_SUMMIT_MAIN,$itm_hard,walljump,speed",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm_vhard,$speed|1",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm_hard,walljump",
+      "$reach_area|ICY_SUMMIT_MAIN,$itm_hard,$speed|3",
       "$reach_area|ICY_SUMMIT_MAIN,$adv_hard,$airdash",
       "$reach_area|ICY_SUMMIT_MAIN,$adv_hard,slide",
 
@@ -4226,7 +4229,7 @@
       "$reach_area|VOLCANIC_MAIN,slide,slippers",
       "$reach_area|VOLCANIC_MAIN,slide,walljump",
       "$reach_area|VOLCANIC_MAIN,slide,itm_hard",
-      "$reach_area|VOLCANIC_MAIN,itm_hard,speed",
+      "$reach_area|VOLCANIC_MAIN,itm_hard,$speed|5",
       "$reach_area|VOLCANIC_MAIN,slippers,walljump",
       "$reach_area|VOLCANIC_MAIN,$adv_vhard,walljump"
     ],
