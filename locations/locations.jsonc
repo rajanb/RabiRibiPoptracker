@@ -15,8 +15,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 80,
-        "y": 176
+        "x": 144,
+        "y": 144
       }
     ]
   },
@@ -37,8 +37,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 144,
-        "y": 208
+        "x": 208,
+        "y": 176
       }
     ]
   },
@@ -58,8 +58,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 176,
-        "y": 432
+        "x": 240,
+        "y": 400
       }
     ]
   },
@@ -79,8 +79,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 208,
-        "y": 272
+        "x": 272,
+        "y": 240
       }
     ]
   },
@@ -100,8 +100,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 208,
-        "y": 400
+        "x": 272,
+        "y": 368
       }
     ]
   },
@@ -121,8 +121,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 208,
-        "y": 368
+        "x": 272,
+        "y": 336
       }
     ]
   },
@@ -142,8 +142,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 240,
-        "y": 400
+        "x": 304,
+        "y": 368
       }
     ]
   },
@@ -163,8 +163,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 272,
-        "y": 240
+        "x": 336,
+        "y": 208
       }
     ]
   },
@@ -184,8 +184,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 272,
-        "y": 304
+        "x": 336,
+        "y": 272
       }
     ]
   },
@@ -205,8 +205,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 304,
-        "y": 336
+        "x": 368,
+        "y": 304
       }
     ]
   },
@@ -226,8 +226,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 336,
-        "y": 496
+        "x": 400,
+        "y": 464
       }
     ]
   },
@@ -248,8 +248,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 368,
-        "y": 400
+        "x": 432,
+        "y": 368
       }
     ]
   },
@@ -270,8 +270,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 368,
-        "y": 176
+        "x": 432,
+        "y": 144
       }
     ]
   },
@@ -291,8 +291,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 368,
-        "y": 464
+        "x": 432,
+        "y": 432
       }
     ]
   },
@@ -321,8 +321,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 400,
-        "y": 272
+        "x": 464,
+        "y": 240
       }
     ]
   },
@@ -342,8 +342,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 400,
-        "y": 432
+        "x": 464,
+        "y": 400
       }
     ]
   },
@@ -363,8 +363,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 432,
-        "y": 496
+        "x": 496,
+        "y": 464
       }
     ]
   },
@@ -384,8 +384,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 464,
-        "y": 272
+        "x": 528,
+        "y": 240
       }
     ]
   },
@@ -405,8 +405,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 496,
-        "y": 368
+        "x": 560,
+        "y": 336
       }
     ]
   },
@@ -426,8 +426,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 496,
-        "y": 176
+        "x": 560,
+        "y": 144
       }
     ]
   },
@@ -450,8 +450,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 528,
-        "y": 304
+        "x": 592,
+        "y": 272
       }
     ]
   },
@@ -471,8 +471,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 592,
-        "y": 432
+        "x": 656,
+        "y": 400
       }
     ]
   },
@@ -496,8 +496,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 624,
-        "y": 496
+        "x": 688,
+        "y": 464
       }
     ]
   },
@@ -528,8 +528,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 624,
-        "y": 208
+        "x": 688,
+        "y": 176
       }
     ]
   },
@@ -560,8 +560,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 624,
-        "y": 144
+        "x": 688,
+        "y": 112
       }
     ]
   },
@@ -581,8 +581,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 624,
-        "y": 304
+        "x": 688,
+        "y": 272
       }
     ]
   },
@@ -603,8 +603,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 624,
-        "y": 336
+        "x": 688,
+        "y": 304
       }
     ]
   },
@@ -624,8 +624,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 624,
-        "y": 464
+        "x": 688,
+        "y": 432
       }
     ]
   },
@@ -646,8 +646,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 656,
-        "y": 176
+        "x": 720,
+        "y": 144
       }
     ]
   },
@@ -667,8 +667,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 144,
-        "y": 176
+        "x": 208,
+        "y": 144
       }
     ]
   },
@@ -688,8 +688,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 208,
-        "y": 464
+        "x": 272,
+        "y": 432
       }
     ]
   },
@@ -709,8 +709,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 272,
-        "y": 336
+        "x": 336,
+        "y": 304
       }
     ]
   },
@@ -730,8 +730,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 272,
-        "y": 208
+        "x": 336,
+        "y": 176
       }
     ]
   },
@@ -751,8 +751,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 464,
-        "y": 464
+        "x": 528,
+        "y": 432
       }
     ]
   },
@@ -772,8 +772,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 496,
-        "y": 400
+        "x": 560,
+        "y": 368
       }
     ]
   },
@@ -793,8 +793,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 560,
-        "y": 208
+        "x": 624,
+        "y": 176
       }
     ]
   },
@@ -814,8 +814,8 @@
     "map_locations": [
       {
         "map": "sw",
-        "x": 720,
-        "y": 144
+        "x": 784,
+        "y": 112
       }
     ]
   },
@@ -1184,7 +1184,7 @@
     "access_rules": [
       "$reach_area|PYRAMID_MAIN,$block_clip",
       "$reach_area|PYRAMID_MAIN,$explosives",
-      "$reach_area|PYRAMID_MAIN,$itm",
+      "$reach_area|PYRAMID_MAIN,$itm"
     ],
     "sections": [
       {
@@ -1778,7 +1778,7 @@
       "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,airjump",
       "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,walljump",
       "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,$amulet",
-      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,$obs",
+      "$reach_area|SKY_BRIDGE_MAIN,$adv_ext,$two_tile_zip,$obs"
     ],
     "sections": [
       {
@@ -3238,7 +3238,7 @@
       "$reach_area|LAB_WEST,$explosives,fire,slide,slippers,walljump",
       "$reach_area|LAB_WEST,$explosives,fire,slide,slippers,$adv_hard,$airdash",
       "$reach_area|LAB_WEST,$explosives,fire,slide,$adv_ext,$amulet",
-      "$reach_area|LAB_WEST,$explosives,fire,slide,$adv_ext,$airdash",
+      "$reach_area|LAB_WEST,$explosives,fire,slide,$adv_ext,$airdash"
     ],
     "sections": [
       {
@@ -3390,7 +3390,7 @@
     "access_rules": [
       "$reach_area|RIVERBANK_LEVEL3,$explosives,slide",
       "$reach_area|RIVERBANK_LEVEL3,$slide_zip",
-      "$reach_area|RIVERBANK_LEVEL3,$hammer_roll_zip",
+      "$reach_area|RIVERBANK_LEVEL3,$hammer_roll_zip"
     ],
     "sections": [
       {
@@ -4128,8 +4128,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 176,
-        "y": 240
+        "x": 208,
+        "y": 176
       }
     ]
   },
@@ -4150,8 +4150,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 528,
-        "y": 336
+        "x": 560,
+        "y": 272
       }
     ]
   },
@@ -4171,8 +4171,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 560,
-        "y": 208
+        "x": 592,
+        "y": 144
       }
     ]
   },
@@ -4192,8 +4192,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 208,
-        "y": 208
+        "x": 240,
+        "y": 144
       }
     ]
   },
@@ -4213,8 +4213,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 528,
-        "y": 240
+        "x": 560,
+        "y": 176
       }
     ]
   },
@@ -4244,8 +4244,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 592,
-        "y": 144
+        "x": 624,
+        "y": 80
       }
     ]
   },
@@ -4267,8 +4267,8 @@
     "map_locations": [
       {
         "map": "sa",
-        "x": 752,
-        "y": 496
+        "x": 784,
+        "y": 432
       }
     ]
   },
@@ -4301,8 +4301,8 @@
     "map_locations": [
       {
         "map": "si",
-        "x": 240,
-        "y": 208
+        "x": 336,
+        "y": 144
       }
     ]
   },
@@ -4322,8 +4322,8 @@
     "map_locations": [
       {
         "map": "si",
-        "x": 272,
-        "y": 208
+        "x": 368,
+        "y": 144
       }
     ]
   },
@@ -4343,8 +4343,8 @@
     "map_locations": [
       {
         "map": "si",
-        "x": 432,
-        "y": 272
+        "x": 528,
+        "y": 208
       }
     ]
   },
@@ -4364,7 +4364,7 @@
       "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$airdash,$itm_hard",
       "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,walljump,$adv_vhard",
       "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$adv_stupid",
-      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$whirl_bonk,$itm_vhard",
+      "$reach_area|SYSTEM_INTERIOR_MAIN,slide,$two_tile_zip,$obs_ext,$hammer_roll_zip,$whirl_bonk,$itm_vhard"
     ],
     "sections": [
       {
@@ -4377,8 +4377,8 @@
     "map_locations": [
       {
         "map": "si",
-        "x": 528,
-        "y": 144
+        "x": 624,
+        "y": 80
       }
     ]
   },
@@ -4399,8 +4399,8 @@
     "map_locations": [
       {
         "map": "si",
-        "x": 560,
-        "y": 176
+        "x": 656,
+        "y": 112
       }
     ]
   },
@@ -4420,8 +4420,8 @@
     "map_locations": [
       {
         "map": "si",
-        "x": 656,
-        "y": 272
+        "x": 752,
+        "y": 208
       }
     ]
   },
@@ -4429,6 +4429,295 @@
     "name": "Egg System Interior",
     "access_rules": [
       "$reach_area|SYSTEM_INTERIOR_MAIN"
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 752,
+        "y": 272
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "name": "Blessed",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Blessed",
+        "chest_unopened_img": "images/items/blessed.png",
+        "chest_opened_img": "images/items_collected/blessed.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 304,
+        "y": 528
+      }
+    ]
+  },
+  {
+    "name": "Egg Rumi",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sw",
+        "x": 48,
+        "y": 528
+      }
+    ]
+  },
+
+  {
+    "name": "Auto Trigger",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Auto Trigger",
+        "chest_unopened_img": "images/items/auto_trigger.png",
+        "chest_opened_img": "images/items_collected/auto_trigger.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 336,
+        "y": 48
+      }
+    ]
+  },
+  {
+    "name": "Hitbox Down",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Hitbox Down",
+        "chest_unopened_img": "images/items/hitbox_down.png",
+        "chest_opened_img": "images/items_collected/hitbox_down.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 560,
+        "y": 144
+      }
+    ]
+  },
+  {
+    "name": "Egg Library",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 432,
+        "y": 208
+      }
+    ]
+  },
+
+  {
+    "name": "Carrot Shooter",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Carrot Shooter",
+        "chest_unopened_img": "images/items/carrot_shooter.png",
+        "chest_opened_img": "images/items_collected/carrot_shooter.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 400,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Egg Memories Sysint",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 240,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg Memories Ravine",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 304,
+        "y": 560
+      }
+    ]
+  },
+  {
+    "name": "Egg Memories Cars Room",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "sa",
+        "x": 304,
+        "y": 272
+      }
+    ]
+  },
+
+  {
+    "name": "Egg Hospital Wall",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wd",
+        "x": 656,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg Hospital Box",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wd",
+        "x": 752,
+        "y": 304
+      }
+    ]
+  },
+
+  {
+    "name": "Cyber Flower",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Cyber Flower",
+        "chest_unopened_img": "images/items/cyber_flower.png",
+        "chest_opened_img": "images/items_collected/cyber_flower.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 464,
+        "y": 240
+      }
+    ]
+  },
+  {
+    "name": "Egg Sysint2",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "si",
+        "x": 112,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "name": "Egg Sysint2 Long Jump",
+    "access_rules": [
     ],
     "sections": [
       {

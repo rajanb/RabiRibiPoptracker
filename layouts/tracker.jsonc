@@ -102,6 +102,15 @@
               }
             },
             {
+              "title": "Warp Destination",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wd"
+                ]
+              }
+            },
+            {
               "title": "System Interior",
               "content": {
                 "type": "map",

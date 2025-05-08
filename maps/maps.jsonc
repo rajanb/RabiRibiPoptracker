@@ -49,6 +49,12 @@
     "img": "images/maps/subterranean_area.png"
   },
   {
+    "name": "wd",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/warp_destination.png"
+  },
+  {
     "name": "si",
     "location_size": 12,
     "location_border_thickness": 4,
