@@ -507,15 +507,6 @@
       "$reach_area|FOREST_UPPER_EAST",
       "$reach_area|FOREST_EAST_ABOVE_SPRING,$itm_hard,$whirl_bonk_cancel,$airdash",
       "$reach_area|FOREST_EAST_ABOVE_SPRING,$adv_vhard,$whirl_bonk"
-
-      //ignoring this for now since you can get to FOREST_UPPER_EAST from FOREST_EAST_ABOVE_SPRING with airjump
-      //
-      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$airdash,slippers,$slide_jump_bunstrike_cancel",
-      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_hard,slippers,$slide_jump_bunstrike,speed",
-      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_vhard,slippers,$slide_jump_bunstrike",
-      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_ext,$airdash,$amulet",
-      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_ext,slide,slippers",
-      //"$reach_area|FOREST_EAST_ABOVE_SPRING,airjump,$adv_ext,slide,$obs"
     ],
     "sections": [
       {
@@ -3231,7 +3222,7 @@
     ]
   },
   {
-    "name": "Pbpb Box",
+    "name": "PBPB Box",
     "access_rules": [
       "$reach_area|LAB_WEST,$explosives,fire,slide,airjump",
       "$reach_area|LAB_WEST,$explosives,fire,slide,slippers,$slide_jump_bunstrike",
@@ -3242,7 +3233,7 @@
     ],
     "sections": [
       {
-        "name": "Pbpb Box",
+        "name": "PBPB Box",
         "chest_unopened_img": "images/items/pbpb_box.png",
         "chest_opened_img": "images/items_collected/pbpb_box.png",
         "item_count": 1
@@ -4426,6 +4417,26 @@
     ]
   },
   {
+    "name": "Egg Crespirit",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wd",
+        "x": 400,
+        "y": 272
+      }
+    ]
+  },
+  {
     "name": "Egg System Interior",
     "access_rules": [
       "$reach_area|SYSTEM_INTERIOR_MAIN"
@@ -4446,11 +4457,6 @@
       }
     ]
   },
-
-
-
-
-
   {
     "name": "Blessed",
     "access_rules": [
@@ -4552,7 +4558,6 @@
       }
     ]
   },
-
   {
     "name": "Carrot Shooter",
     "access_rules": [
@@ -4696,7 +4701,7 @@
     ]
   },
   {
-    "name": "Egg Sysint2",
+    "name": "Egg System Interior 2",
     "access_rules": [
     ],
     "sections": [
@@ -4716,7 +4721,7 @@
     ]
   },
   {
-    "name": "Egg Sysint2 Long Jump",
+    "name": "Egg System Interior 2 Long Jump",
     "access_rules": [
     ],
     "sections": [
