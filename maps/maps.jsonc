@@ -2,60 +2,70 @@
   {
     "name": "sw",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/southern_woodland.png"
   },
   {
     "name": "wc",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/western_coast.png"
   },
   {
     "name": "ic",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/island_core.png"
   },
   {
     "name": "nt",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/northern_tundra.png"
   },
   {
     "name": "eh",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/eastern_highlands.png"
   },
   {
     "name": "rrt",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/rabi_rabi_town.png"
   },
   {
     "name": "p",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/plurkwood.png"
   },
   {
     "name": "sa",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/subterranean_area.png"
   },
   {
     "name": "wd",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/warp_destination.png"
   },
   {
     "name": "si",
     "location_size": 12,
+    "location_icon_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/system_interior.png"
   }
