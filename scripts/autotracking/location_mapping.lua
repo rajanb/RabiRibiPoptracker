@@ -231,8 +231,9 @@ LOCATION_MAPPING = {
 
 	[BASE_LOCATION_ID + 0xD0] = { {"@Cyber Flower/Cyber Flower"} },
 	[BASE_LOCATION_ID + 0xD1] = { {"@Egg System Interior 2/Egg"} },
-	[BASE_LOCATION_ID + 0xD2] = { {"@Ribbon Badge/Ribbon Badge"} },
-	[BASE_LOCATION_ID + 0xD3] = { {"@Erina Badge/Erina Badge"} },
+	
+	[BASE_LOCATION_ID + 0xD2] = { {"@Town Badges/Ribbon Badge"} },
+	[BASE_LOCATION_ID + 0xD3] = { {"@Town Badges/Erina Badge"} },
 
 	[BASE_LOCATION_ID + 0xD4] = { {"@Egg Halloween Cicini Room/Egg"} },
 	[BASE_LOCATION_ID + 0xD5] = { {"@Egg Halloween West/Egg"} },
@@ -240,8 +241,8 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 0xD7] = { {"@Egg Halloween Southwest Slide/Egg"} },
 	[BASE_LOCATION_ID + 0xD8] = { {"@Egg Halloween Near Boss/Egg"} },
 	[BASE_LOCATION_ID + 0xD9] = { {"@Egg Halloween Warp Zone/Egg"} },
-	[BASE_LOCATION_ID + 0xDA] = { {"@Egg Halloween Left Pillar/Egg"} },
-	[BASE_LOCATION_ID + 0xDB] = { {"@Egg Halloween Right Pillar/Egg"} },
+	[BASE_LOCATION_ID + 0xDA] = { {"@Egg Halloween Pillars/Egg Halloween Left Pillar"} },
+	[BASE_LOCATION_ID + 0xDB] = { {"@Egg Halloween Pillars/Egg Halloween Right Pillar"} },
 	[BASE_LOCATION_ID + 0xDC] = { {"@Egg Halloween Past Pillars 1/Egg"} },
 	[BASE_LOCATION_ID + 0xDD] = { {"@Egg Halloween Past Pillars 2/Egg"} },
 

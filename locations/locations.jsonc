@@ -4739,5 +4739,218 @@
         "y": 336
       }
     ]
+  },
+  {
+    "name": "Town Badges",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Ribbon Badge",
+        "chest_unopened_img": "images/items/ribbon_badge.png",
+        "chest_opened_img": "images/items_collected/ribbon_badge.png",
+        "item_count": 1
+      },
+      {
+        "name": "Erina Badge",
+        "chest_unopened_img": "images/items/erina_badge.png",
+        "chest_opened_img": "images/items_collected/erina_badge.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "rrt",
+        "x": 400,
+        "y": 272
+      }
+    ]
+  },
+
+  {
+    "name": "Egg Halloween Cicini Room",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 336,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween West",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 80,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Mid",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 144,
+        "y": 304
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Southwest Slide",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 144,
+        "y": 336
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Near Boss",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 144,
+        "y": 112
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Warp Zone",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 272,
+        "y": 112
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Pillars",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg Halloween Left Pillar",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      },
+      {
+        "name": "Egg Halloween Right Pillar",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 560,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Past Pillars 1",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 592,
+        "y": 272
+      }
+    ]
+  },
+  {
+    "name": "Egg Halloween Past Pillars 2",
+    "access_rules": [
+    ],
+    "sections": [
+      {
+        "name": "Egg",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items_collected/easter_egg.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "wc",
+        "x": 624,
+        "y": 272
+      }
+    ]
   }
 ]
