@@ -150,6 +150,12 @@
     "codes": "SPECTRAL_WEST"
   },
   {
+    "name": "FORGOTTEN_CAVE_2",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "FORGOTTEN_CAVE_2"
+  },
+  {
     "name": "BEACH_MAIN",
     "type": "toggle",
     "img": "images/items/carrot_bomb.png",
@@ -838,6 +844,12 @@
     "type": "toggle",
     "img": "images/items/carrot_bomb.png",
     "codes": "VOLCANIC_BEACH_ENTRANCE"
+  },
+  {
+    "name": "HALL_OF_MEMORIES",
+    "type": "toggle",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "HALL_OF_MEMORIES"
   },
   {
     "name": "SYSTEM_INTERIOR_MAIN",

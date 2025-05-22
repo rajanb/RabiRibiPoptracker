@@ -4419,6 +4419,7 @@
   {
     "name": "Egg Crespirit",
     "access_rules": [
+      "$reach_area|WARP_DESTINATION_OUTSIDE"
     ],
     "sections": [
       {
@@ -4460,6 +4461,7 @@
   {
     "name": "Blessed",
     "access_rules": [
+      "$reach_area|FORGOTTEN_CAVE_2"
     ],
     "sections": [
       {
@@ -4480,6 +4482,7 @@
   {
     "name": "Egg Rumi",
     "access_rules": [
+      "$reach_area|FORGOTTEN_CAVE_2"
     ],
     "sections": [
       {
@@ -4501,6 +4504,7 @@
   {
     "name": "Auto Trigger",
     "access_rules": [
+      "$reach_area|LIBRARY_MID_UPPER,slide"
     ],
     "sections": [
       {
@@ -4521,6 +4525,16 @@
   {
     "name": "Hitbox Down",
     "access_rules": [
+      "$reach_area|LIBRARY_BOTTOM,shooter,$amulet,$adv_stupid,airjump",
+      "$reach_area|LIBRARY_BOTTOM,shooter,$amulet,$adv_stupid,$airdash",
+      "$reach_area|LIBRARY_BOTTOM,shooter,$amulet,$adv_stupid,slippers",
+      "$reach_area|LIBRARY_BOTTOM,shooter,$amulet,$adv_stupid,$slide_jump_bunstrike_cancel",
+
+      "$reach_area|LIBRARY_BOTTOM,bomb,airjump,walljump",
+      "$reach_area|LIBRARY_BOTTOM,bomb,slippers,airjump",
+      "$reach_area|LIBRARY_BOTTOM,bomb,slippers,walljump",
+      "$reach_area|LIBRARY_BOTTOM,bomb,$slide_jump_bunstrike_cancel,airjump",
+      "$reach_area|LIBRARY_BOTTOM,bomb,$slide_jump_bunstrike_cancel,walljump",
     ],
     "sections": [
       {
@@ -4541,6 +4555,11 @@
   {
     "name": "Egg Library",
     "access_rules": [
+      "$reach_area|LIBRARY_BOTTOM,airjump",
+      "$reach_area|LIBRARY_BOTTOM,$airdash",
+      "$reach_area|LIBRARY_BOTTOM,slide",
+      "$reach_area|LIBRARY_BOTTOM,$adv_stupid,$amulet",
+      "$reach_area|LIBRARY_ENTRANCE"
     ],
     "sections": [
       {
@@ -4561,6 +4580,7 @@
   {
     "name": "Carrot Shooter",
     "access_rules": [
+      "$reach_area|HALL_OF_MEMORIES"
     ],
     "sections": [
       {
@@ -4581,6 +4601,7 @@
   {
     "name": "Egg Memories Sysint",
     "access_rules": [
+      "$reach_area|HALL_OF_MEMORIES,$explosives"
     ],
     "sections": [
       {
@@ -4601,6 +4622,7 @@
   {
     "name": "Egg Memories Ravine",
     "access_rules": [
+      "$reach_area|HALL_OF_MEMORIES,$explosives"
     ],
     "sections": [
       {
@@ -4621,6 +4643,7 @@
   {
     "name": "Egg Memories Cars Room",
     "access_rules": [
+      "$egg_memories_cars_room"
     ],
     "sections": [
       {
@@ -4642,6 +4665,7 @@
   {
     "name": "Egg Hospital Wall",
     "access_rules": [
+      "$reach_area|WARP_DESTINATION_HOSPITAL"
     ],
     "sections": [
       {
@@ -4662,6 +4686,7 @@
   {
     "name": "Egg Hospital Box",
     "access_rules": [
+      "$reach_area|WARP_DESTINATION_HOSPITAL"
     ],
     "sections": [
       {
@@ -4683,6 +4708,7 @@
   {
     "name": "Cyber Flower",
     "access_rules": [
+      "$reach_area|SYSINT2_END"
     ],
     "sections": [
       {
@@ -4703,6 +4729,7 @@
   {
     "name": "Egg System Interior 2",
     "access_rules": [
+      "$reach_area|SYSINT2_EGG_ROOM,$post_game"
     ],
     "sections": [
       {
@@ -4723,6 +4750,19 @@
   {
     "name": "Egg System Interior 2 Long Jump",
     "access_rules": [
+      "$reach_area|SYSINT2_END,$explosives,slide,$airdash",
+      "$reach_area|SYSINT2_END,$explosives,slide,airjump",
+      "$reach_area|SYSINT2_END,$explosives,slide,$strike",
+      "$reach_area|SYSINT2_END,$explosives,slide,slippers",
+      "$reach_area|SYSINT2_END,$explosives,slide,$itm_hard,walljump,$speed|2",
+      "$reach_area|SYSINT2_END,$explosives,slide,$adv_vhard",
+
+      "$reach_area|SYSINT2_END,$explosives,$hammer_roll_zip,$airdash",
+      "$reach_area|SYSINT2_END,$explosives,$hammer_roll_zip,airjump",
+      "$reach_area|SYSINT2_END,$explosives,$hammer_roll_zip,$strike",
+      "$reach_area|SYSINT2_END,$explosives,$hammer_roll_zip,slippers",
+      "$reach_area|SYSINT2_END,$explosives,$hammer_roll_zip,$itm_hard,walljump,$speed|2",
+      "$reach_area|SYSINT2_END,$explosives,$hammer_roll_zip,$adv_vhard"
     ],
     "sections": [
       {
@@ -4743,6 +4783,7 @@
   {
     "name": "Town Badges",
     "access_rules": [
+      "$reach_area|TOWN_MAIN,slide,$post_game"
     ],
     "sections": [
       {
@@ -4770,6 +4811,10 @@
   {
     "name": "Egg Halloween Cicini Room",
     "access_rules": [
+      "$reach_area|HALLOWEEN_PUMPKIN_HALL,$explosives,$slide_zip",
+      "$reach_area|HALLOWEEN_PUMPKIN_HALL,$explosives,$hammer_roll_zip",
+      "$reach_area|HALLOWEEN_PUMPKIN_HALL,$explosives,shooter,slide",
+      "$reach_area|HALLOWEEN_PUMPKIN_HALL,$explosives,slide,$whirl"
     ],
     "sections": [
       {
@@ -4790,6 +4835,9 @@
   {
     "name": "Egg Halloween West",
     "access_rules": [
+      "$reach_area|HALLOWEEN_DARK_SHAFT,slide,$darkness,fire,$whirl",
+      "$reach_area|HALLOWEEN_DARK_SHAFT,slide,$darkness,$adv_hard,$whirl",
+      "$reach_area|HALLOWEEN_DARK_SHAFT,slide,$darkness,$adv_stupid,shooter"
     ],
     "sections": [
       {
@@ -4810,6 +4858,7 @@
   {
     "name": "Egg Halloween Mid",
     "access_rules": [
+      "$reach_area|HALLOWEEN_FLOODED,$explosives,slide"
     ],
     "sections": [
       {
@@ -4830,6 +4879,7 @@
   {
     "name": "Egg Halloween Southwest Slide",
     "access_rules": [
+      "$reach_area|HALLOWEEN_FLOODED,$explosives,slide"
     ],
     "sections": [
       {
@@ -4850,6 +4900,7 @@
   {
     "name": "Egg Halloween Near Boss",
     "access_rules": [
+      "$reach_area|HALLOWEEN_UPPER,$explosives"
     ],
     "sections": [
       {
@@ -4870,6 +4921,10 @@
   {
     "name": "Egg Halloween Warp Zone",
     "access_rules": [
+      "$reach_area|HALLOWEEN_UPPER,$whirl_bonk",
+      "$reach_area|HALLOWEEN_UPPER,airjump,$airdash",
+      "$reach_area|HALLOWEEN_UPPER,airjump,$adv_stupid",
+      "$reach_area|HALLOWEEN_UPPER,$adv_ext,$airdash,slide,walljump,$amulet"
     ],
     "sections": [
       {
@@ -4890,6 +4945,11 @@
   {
     "name": "Egg Halloween Pillars",
     "access_rules": [
+      "$reach_area|HALLOWEEN_EXIT,airjump",
+      "$reach_area|HALLOWEEN_EXIT,slippers",
+      "$reach_area|HALLOWEEN_EXIT,slide",
+      "$reach_area|HALLOWEEN_EXIT,$whirl",
+      "$reach_area|HALLOWEEN_EXIT,$adv_vhard"
     ],
     "sections": [
       {
@@ -4916,6 +4976,7 @@
   {
     "name": "Egg Halloween Past Pillars 1",
     "access_rules": [
+      "$reach_area|HALLOWEEN_PAST_PILLARS"
     ],
     "sections": [
       {
@@ -4936,6 +4997,16 @@
   {
     "name": "Egg Halloween Past Pillars 2",
     "access_rules": [
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,$adv_vhard,$airdash",
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,$adv_vhard,$strike",
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,airjump,$airdash",
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,airjump,$itm_hard,$strike",
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,$adv_vhard,airjump,walljump",
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,$adv_vhard,airjump,$stupid",
+      "$reach_area|HALLOWEEN_PAST_PILLARS,$whirl,$adv_stupid,$amulet,$airdash",
+
+      "$reach_area|HALLOWEEN_PUMPKIN_HALL,$adv_stupid,$slide_zip,$explosives,$amulet,$strike,airjump,walljump,$airdash",
+      "$reach_area|HALLOWEEN_PUMPKIN_HALL,$adv_stupid,$slide_zip,$explosives,$obs_stupid,$slide_jump_bunstrike,airjump"
     ],
     "sections": [
       {

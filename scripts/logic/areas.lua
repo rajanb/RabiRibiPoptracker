@@ -24,6 +24,7 @@ area_list = {
 	"SPECTRAL_GAP_LEDGE",
 	"SPECTRAL_WEST_EGG_ROOM",
 	"SPECTRAL_WEST",
+	"FORGOTTEN_CAVE_2",
 
 	"BEACH_MAIN",
 	"BEACH_FOREST_ENTRANCE",
@@ -145,10 +146,17 @@ area_list = {
 
 	"VOLCANIC_MAIN",
 	"VOLCANIC_BEACH_ENTRANCE",
+	"HALL_OF_MEMORIES",
 
 	"SYSTEM_INTERIOR_MAIN",
+	"SYSINT2_START",
+	"SYSINT2_EGG_ROOM",
+	"SYSINT2_END",
 
-	"PLURKWOOD_MAIN"
+	"PLURKWOOD_MAIN",
+
+	"WARP_DESTINATION_OUTSIDE",
+	"WARP_DESTINATION_HOSPITAL"
 }
 
 edges = {}
@@ -170,7 +178,7 @@ default_edges = {
 	["FOREST_NIGHT_NORTH_EAST"] = {"FOREST_NORTH_HP_UP_ROOM","FOREST_NIGHT_TOXIC_STRIKE","FOREST_NIGHT_WEST","PLURKWOOD_MAIN"},
 	["CAVE_ENTRANCE"] = {"FOREST_START","FOREST_WARP","CAVE_WEST","CAVE_COCOA","SPECTRAL_UPPER"},
 	["CAVE_WEST"] = {"FOREST_START","CAVE_ENTRANCE","SPECTRAL_UPPER"},
-	["CAVE_COCOA"] = {"CAVE_ENTRANCE"},
+	["CAVE_COCOA"] = {"CAVE_ENTRANCE","FORGOTTEN_CAVE_2"},
 	["SPECTRAL_UPPER"] = {"CAVE_ENTRANCE","CAVE_WEST","SPECTRAL_WARP","SPECTRAL_MID"},
 	["SPECTRAL_WARP"] = {"SPECTRAL_UPPER","SPECTRAL_CICINI_LEDGE","SPECTRAL_MID"},
 	["SPECTRAL_CICINI_LEDGE"] = {"SPECTRAL_CICINI_ROOM","SPECTRAL_WARP"},
@@ -179,6 +187,7 @@ default_edges = {
 	["SPECTRAL_GAP_LEDGE"] = {"SPECTRAL_MID","SPECTRAL_WEST_EGG_ROOM","SPECTRAL_WEST"},
 	["SPECTRAL_WEST_EGG_ROOM"] = {"SPECTRAL_MID","SPECTRAL_GAP_LEDGE","SPECTRAL_WEST"},
 	["SPECTRAL_WEST"] = {"SPECTRAL_GAP_LEDGE","SPECTRAL_WEST_EGG_ROOM"},
+	["FORGOTTEN_CAVE_2"] = {},
 
 	["BEACH_MAIN"] = {"BEACH_FOREST_ENTRANCE","BEACH_UNDERWATER_ENTRANCE","BEACH_VOLCANIC_ENTRANCE","PYRAMID_MAIN"},
 	["BEACH_FOREST_ENTRANCE"] = {"BEACH_MAIN"},
@@ -295,15 +304,22 @@ default_edges = {
 	["LAB_EAST_PACK_UP_ROOM"] = {"LAB_EAST","LAB_ENTRANCE"},
 	["LAB_EAST_ATK_UP_ROOM"] = {"LAB_EAST","LAB_EAST_PACK_UP_ROOM"},
 
-	["TOWN_MAIN"] = {"TOWN_SHOP","RIVERBANK_MAIN_LEVEL1"},
+	["TOWN_MAIN"] = {"TOWN_SHOP","RIVERBANK_MAIN_LEVEL1","WARP_DESTINATION_OUTSIDE","WARP_DESTINATION_HOSPITAL"},
 	["TOWN_SHOP"] = {"TOWN_MAIN"},
 
-	["VOLCANIC_MAIN"] = {"VOLCANIC_BEACH_ENTRANCE"},
+	["VOLCANIC_MAIN"] = {"VOLCANIC_BEACH_ENTRANCE","HALL_OF_MEMORIES"},
 	["VOLCANIC_BEACH_ENTRANCE"] = {"VOLCANIC_MAIN"},
+	["HALL_OF_MEMORIES"] = {},
 
-	["SYSTEM_INTERIOR_MAIN"] = {"LAB_COMPUTER_ROOM"},
+	["SYSTEM_INTERIOR_MAIN"] = {"SYSINT2_START","SYSINT2_END","LAB_COMPUTER_ROOM"},
+	["SYSINT2_START"] = {"SYSINT2_EGG_ROOM"},
+	["SYSINT2_EGG_ROOM"] = {"SYSINT2_END"},
+	["SYSINT2_END"] = {"SYSTEM_INTERIOR_MAIN","SYSINT2_EGG_ROOM"},
 
-	["PLURKWOOD_MAIN"] = {"FOREST_NIGHT_NORTH_EAST","TOWN_MAIN"}
+	["PLURKWOOD_MAIN"] = {"FOREST_NIGHT_NORTH_EAST","TOWN_MAIN"},
+
+	["WARP_DESTINATION_OUTSIDE"] = {"TOWN_MAIN"},
+	["WARP_DESTINATION_HOSPITAL"] = {"TOWN_MAIN"}
 }
   
 location_names =  {
@@ -332,6 +348,7 @@ location_names =  {
 	["Spectral Warp"] = "SPECTRAL_WARP",
 	["Spectral Cicini Ledge"] = "SPECTRAL_CICINI_LEDGE",
 	["Spectral Cicini Room"] = "SPECTRAL_CICINI_ROOM",
+	["Forgotten Cave 2"] = "FORGOTTEN_CAVE_2",
 
 	["Beach Main"] = "BEACH_MAIN",
 	["Beach Forest Entrance"] = "BEACH_FOREST_ENTRANCE",
@@ -455,9 +472,15 @@ location_names =  {
 
 	["Volcanic Main"] = "VOLCANIC_MAIN",
 	["Volcanic Beach Entrance"] = "VOLCANIC_BEACH_ENTRANCE",
+	["Hall Of Memorie"] = "HALL_OF_MEMORIES",
 
 	["System Interior Main"] = "SYSTEM_INTERIOR_MAIN",
+	["Sysint2 Start"] = "SYSINT2_START",
+	["Sysint2 Egg Room"] = "SYSINT2_EGG_ROOM",
+	["Sysint2 End"] = "SYSINT2_END",
 	
+	["Warp Destination Outside"] = "WARP_DESTINATION_OUTSIDE",	
+	["Warp Destination Hospita"] = "WARP_DESTINATION_HOSPITAL"	
 }
 
 local function table_has (t, x)
@@ -710,6 +733,10 @@ function spectral_west()
         transition_to("SPECTRAL_WEST")
 end
 
+function forgotten_cave_2()
+	return reach_area("CAVE_COCOA") and post_game()
+end
+
 --western coast
 
 function beach_main()
@@ -718,7 +745,9 @@ function beach_main()
 		(reach_area("BEACH_VOLCANIC_ENTRANCE") and (has_item("airjump") or slide_jump_bunstrike_cancel() or has_item("walljump"))) or
 		(reach_area("PYRAMID_MAIN")) or		
 		(reach_area("SKY_ISLAND_MAIN") and explosives()) or
-		transition_to("BEACH_MAIN")
+		transition_to("BEACH_MAIN") or
+		(reach_area("HALLOWEEN_PAST_PILLARS") and whirl()) or
+		(reach_area("HALLOWEEN_FLOODED") and has_item("water") and hammer_roll_zip())
 end
 
 function beach_forest_entrance()
@@ -775,7 +804,11 @@ function graveyard_main()
 	return transition_to("GRAVEYARD_MAIN") or
 		reach_area("GRAVEYARD_TOP_OF_BRIDGE") or
 		reach_area("GRAVEYARD_UPPER") or
-		reach_area("GRAVEYARD_KOTRI")
+		reach_area("GRAVEYARD_KOTRI") or
+		(reach_area("HALLOWEEN_DARK_SHAFT") and darkness() and explosives() and (has_item("airjump") or has_item("walljump") or
+			(whirl() and (has_item("slippers") or slide_jump_bunstrike_cancel()))) and (whirl() or (has_item("slide") and adv_hard()) or
+			(airdash() and (has_item("slippers") or slide_jump_bunstrike_cancel())) or (has_item("slippers") and slide_jump_bunstrike()) or adv_stupid())) or
+		reach_area("LIBRARY_OUTSIDE")
 end
 
 function graveyard_upper()
@@ -785,7 +818,8 @@ function graveyard_upper()
             (adv_vhard() and roll()) or (adv_stupid() and (has_item("slide") or whirl_bonk()))))) or
         (reach_area("GRAVEYARD_TOP_OF_BRIDGE") and (itm() and has_item("airjump") and ((has_item("slippers") and (airdash() or (itm_hard() and (speed(3) or
 			has_item("slide"))) or (adv_vhard() and speed(1) and (has_item("walljump") or amulet() or stupid())))) or (strike() and ((hard() and amulet()) or 
-			obs_vhard())))))
+			obs_vhard()))))) or
+		reach_area("HALLOWEEN_UPPER")
 end
 
 function graveyard_top_of_bridge()
@@ -798,7 +832,8 @@ end
 
 function graveyard_kotri()
 	return reach_area("GRAVEYARD_MAIN") or
-		reach_area("SKY_ISLAND_MAIN")
+		reach_area("SKY_ISLAND_MAIN") or
+		reach_area("HALLOWEEN_EXIT")
 end
 
 function sky_island_main()
@@ -808,7 +843,10 @@ function sky_island_main()
 end
 
 function sky_island_air_dash_room()
-	return reach_area("SKY_ISLAND_MAIN") and explosives() and has_item("slide")
+	return (reach_area("SKY_ISLAND_MAIN") and explosives() and has_item("slide")) or
+		(reach_area("LIBRARY_BOTTOM") and two_tile_zip() and (has_item("airjump") or ((has_item("slippers") or slide_jump_bunstrike_cancel()) and
+			(speed(3) or (adv_vhard() and speed(1))) and airdash()) or (adv_vhard() and has_item("walljump") and has_item("slippers")) or 
+			(itm_hard() and has_item("walljump") and airdash()) or (adv_stupid() and three_tile_zip() and amulet())))
 end
 
 function sky_island_upper()
@@ -817,11 +855,15 @@ function sky_island_upper()
 			airdash() and amulet() and ((has_item("walljump") and (speed(2) or stupid())) or (amulet() and stupid()))) or
 			(adv_stupid() and has_item("walljump") and (has_item("slippers") and speed(5) and amulet())) or 
 			(adv_vhard() and has_item("slide") and has_item("slippers") and ((has_item("walljump") and airdash() and (amulet() or obs())) or
-			(extreme() and has_item("walljump") and amulet()) or (extreme() and airdash() and (amulet() or stupid())) or (stupid() and has_item("walljump") and amulet()))))
+			(extreme() and has_item("walljump") and amulet()) or (extreme() and airdash() and (amulet() or stupid())) or (stupid() and has_item("walljump") and amulet())))) or
+		(reach_area("SKY_ISLAND_OOB") and (has_item("slide") or hammer_roll_zip())) or
+		(reach_area("LIBRARY_IRISU") and explosives())
 end
 
 function sky_island_oob()
-	return false
+	return reach_area("SKY_ISLAND_UPPER") and adv_vhard() and ((has_item("airjump") and has_item("walljump") and (has_item("slippers") or airdash())) or
+			(has_item("slippers") and has_item("airjump") and airdash()) or (slide_jump_bunstrike_cancel() and has_item("airjump")) or 
+			(obs_stupid() and has_item("slippers") and has_item("walljump") and has_item("speed") and airdash()))
 end
 
 function library_outside()
@@ -830,62 +872,102 @@ function library_outside()
 			(amulet() and has_item("walljump")))) or (adv_vhard() and has_item("walljump") and airdash() and (amulet() or obs())) or (adv_vhard() and 
 			airdash() and amulet()) or (obs_ext() and airdash() and amulet()))
 end
---ignoring library/halloween areas for now as they are not included in the AP randomizer
 
 function library_entrance()
-	return false
+	return (reach_area("LIBRARY_OUTSIDE") and post_game()) or
+		(reach_area("LIBRARY_BOTTOM") and (has_item("walljump") or has_item("airjump") or airdash() or slide_jump_bunstrike_cancel() or
+			(has_item("slippers") and amulet() and adv_stupid())))
 end
 
 function library_bottom()
-	return false
+	return reach_area("LIBRARY_ENTRANCE") or
+		(reach_area("LIBRARY_MID_LOWER") and (explosives() and (has_item("slide") or hammer_roll_zip())) or (has_item("slippers") or has_item("airjump") or airdash() or
+			slide_jump_bunstrike() or whirl_bonk() or (adv_vhard() and (has_item("slide") or amulet())) or adv_ext())) or
+		(reach_area("GRAVEYARD_UPPER") and post_game() and obs_vhard() and bunstrike_zip())
 end
 
 function library_alcove_ledge()
-	return false
+	return (reach_area("LIBRARY_BOTTOM") and (whirl_bonk() or
+			(has_item("airjump") and (has_item("slippers") or obs_vhard()) and slide_jump_bunstrike_cancel()) or
+			(adv_hard() and airdash() and has_item("slippers") and slide_jump_bunstrike_cancel()) or
+			(adv_vhard() and has_item("airjump") and airdash()) or
+			(adv_vhard() and airdash()) or
+			(adv_stupid() and airjjump() and has_item("slide")) or
+			(adv_ext() and airdash() and has_item("walljump") and amulet() and slide_jump_bunstrike_cancel()))) or
+		(reach_area("LIBRARY_MID_LOWER")) or
+		(reach_area("GRAVEYARD_UPPER") and post_game() and ((obs_stupid() and bunstrike_zip()) or (obs_ext() and three_tile_zip() and amulet() and (speed(2) or stupid()))))
 end
 
 function library_mid_lower()
-	return false
+	return (reach_area("LIBRARY_BOTTOM") and has_item("walljump") and has_item("airjump") and (airdash() or strike())) or
+		(reach_area("LIBRARY_ALCOVE_LEDGE") and (has_item("airjump") or airdash() or (obs() and has_item("slippers") and slide_jump_bunstrike()) or
+			(has_item("slippers") and adv_ext() and amulet()) or (has_item("walljump") and adv_stupid() and amulet()))) or
+		(reach_area("GRAVEYARD_UPPER") and post_game() and obs_stupid() and three_tile_zip()) or
+		(reach_area("LIBRARY_MID_UPPER") and (has_item("slippers") or has_item("airjump") or airdash() or slide_jump_bunstrike() or has_item("walljump") or itm_hard())) or
+		(reach_area("LIBRARY_OOB") and post_game() and strike() and adv_stupid())
 end
 
 function library_mid_upper()
-	return false
+	return (reach_area("LIBRARY_MID_LOWER") and (adv_ext() or has_item("slippers") or has_item("airjump") or (itm_vhard() and speed(1)) or
+			(itm_hard() and (has_item("walljump") or speed(3))) or (adv_hard() and airdash()))) or
+			reach_area("LIBRARY_IRISU")
 end
 
 function library_irisu()
-	return false
+	return (reach_area("LIBRARY_MID_UPPER") and (four_tile_zip() or
+			(whirl_bonk_cancel() and (adv_stupid() or has_item("walljump"))) or
+			(adv_hard() and roll() and (has_item("slippers") or has_item("airjump"))) or
+			(has_item("airjump") and has_item("walljump")) or
+			(slide_jump_bunstrike_cancel() and has_item("slippers") and (has_item("airjump") or has_item("walljump")))) and 
+			(airdash() or has_item("airjump") or (adv_vhard() and (has_item("slippers") or slide_jump_bunstrike_cancel() or has_item("walljump"))))) or
+		(reach_area("LIBRARY_OOB") and post_game())
 end
 
 function library_oob()
-	return false
+	return reach_area("SKY_ISLAND_OOB") and (adv_vhard() and has_item("slippers") and has_item("airjump") and airdash()) and ((has_item("walljump") and amulet()) or
+			(obs_ext() and slide_jump_bunstrike_cancel()))
 end
 
 function halloween_upper()
-	return false
+	return (reach_area("GRAVEYARD_UPPER") and halloween() and explosives() and (whirl_bonk() or (has_item("slide") and adv_stupid()) or (has_item("airjump") and (itm_hard() or
+			has_item("slippers") or slide_jump_bunstrike_cancel() or whirl() or airdash())))) or
+		(reach_area("LIBRARY_OOB") and halloween() and obs_stupid() and strike() and airdash() and has_item("airjump"))
 end
 
 function halloween_dark_shaft()
-	return false
+	return (reach_area("GRAVEYARD_MAIN") and halloween() and darkness() and (whirl() or has_item("shooter")) and (whirl() or (has_item("slide") and adv_hard()) or
+			(airdash() and (has_item("slippers") or slide_jump_bunstrike_cancel())) or (has_item("slippers") and slide_jump_bunstrike()) or adv_stupid()) and explosives()) or
+		(reach_area("HALLOWEEN_CENTRAL") and darkness())
 end
 
 function halloween_central()
-	return false
+	return (reach_area("HALLOWEEN_DARK_SHAFT") and darkness() and ((has_item("airjump") and (has_item("walljump") or
+			(whirl() and (has_item("slippers") or slide_jump_bunstrike_cancel())) or (has_item("slippers") and slide_jump_bunstrike_cancel()))) or 
+			(whirl_bonk_cancel() and (has_item("walljump") or adv_vhard())))) or
+		(reach_area("GRAVEYARD_MAIN") and halloween() and slide_zip()) or
+		(reach_area("HALLOWEEN_PUMPKIN_HALL") and explosives())
 end
 
 function halloween_flooded()
-	return false
+	return reach_area("HALLOWEEN_CENTRAL") and has_item("slide") and whirl() and explosives()
 end
 
 function halloween_pumpkin_hall()
-	return false
+	return (reach_area("HALLOWEEN_FLOODED") and ((explosives() and has_item("slide") and whirl()) or (explosives() and two_tile_zip() and adv_stupid()))) or
+		(reach_area("HALLOWEEN_CENTRAL") and ((((has_item("slide") and downdrill_semisolid_clip()) or two_tile_downdrill_semisolid_clip()) and explosives()) or
+			(hammer_roll_zip() and explosives()) or (slide_zip() and (has_item("bomb") or (has_item("shooter") and option_enabled("carrot_shooter_logic") and adv_stupid())))))
 end
 
 function halloween_exit()
-	return false
+	return (reach_area("HALLOWEEN_PUMPKIN_HALL") and (explosives() and (whirl_bonk() or slide_jump_bunstrike() or (has_item("airjump") and 
+			(adv_vhard() or has_item("slippers"))) or (has_item("slippers") and airdash())) and (slide_zip() or whirl()))) or
+		(reach_area("GRAVEYARD_KOTRI") and halloween() and downdrill_semisolid_clip()) or
+		reach_area("HALLOWEEN_PAST_PILLARS")
 end
 
 function halloween_past_pillars()
-	return false
+	return reach_area("HALLOWEEN_EXIT") and (has_item("airjump") or airdash() or has_item("slippers") or slide_jump_bunstrike() or whirl() or
+			(adv_vhard() and amulet()) or has_item("walljump"))
 end
 
 --island core
@@ -1461,16 +1543,64 @@ function volcanic_beach_entrance()
         (reach_area("VOLCANIC_MAIN") and (adv_vhard() or has_item("slippers")  or airdash() or has_item("airjump") or slide_jump_bunstrike()))
 end
 
+function hall_of_memories()
+	return reach_area("VOLCANIC_MAIN") and post_game()
+end
+
 --system interior
 
 function system_interior_main()
-	return reach_area("LAB_COMPUTER_ROOM") and reach_area("TOWN_MAIN")
+	return reach_area("LAB_COMPUTER_ROOM") or
+		reach_area("SYSINT2_END")
+end
+
+function sysint2_start()
+	return reach_area("SYSTEM_INTERIOR_MAIN") and post_game() and 
+			((itm_hard() and has_item("walljump") and has_item("airjump") and airdash()) or
+			(adv_vhard() and has_item("slippers") and amulet() and has_item("walljump") and (has_item("airjump") or airdash())) or
+			(has_item("airjump") and amulet() and ((adv_ext() and has_item("walljump")) or (adv_stupid() and has_item("walljump") and amulet()))) or
+			(slide_jump_bunstrike_cancel() and has_item("airjump") and (has_item("slippers") or obs_vhard())) or
+			(has_item("slide") and has_item("airjump") and (slide_jump_bunstrike_cancel() or has_item("walljump"))))
+end
+
+function sysint2_egg_room()
+	return (reach_area("SYSINT2_START") and explosives() and ((itm_hard() and has_item("slide")) or (adv_hard() and has_item("slippers")) or 
+			(airdash() and (has_item("slippers") or itm_hard())) or has_item("airjump") or (adv_ext() and amulet()))) or
+		(reach_area("SYSINT2_END") and (explosives() or has_item("slide")) and ((adv_hard() and slide_jump_bunstrike_cancel() and (has_item("airjump") or adv_vhard())) or
+			(adv_vhard() and has_item("airjump") and ((airdash() and amulet()) or has_item("walljump")))))
+end
+
+function sysint2_end()
+	return (reach_area("SYSINT2_EGG_ROOM") and (explosives() or has_item("slide") or hammer_roll_zip()) and
+			((has_item("airjump") and (has_item("slippers") or has_item("walljump"))) or
+			(obs_vhard() and slide_jump_bunstrike_cancel() and (has_item("walljump") or has_item("airjump"))))) or
+		(reach_area("SYSTEM_INTERIOR_MAIN") and post_game() and ((adv_stupid() and whirl_bonk()) and
+			((has_item("airjump") and has_item("walljump")) or (obs() and has_item("slippers") and has_item("walljump")))))		
 end
 
 --plurkwood
 
 function plurkwood_main()
 	return reach_area("FOREST_NIGHT_NORTH_EAST")
+end
+
+--warp destination
+
+function warp_destination_outside()
+	return reach_area("TOWN_MAIN")
+end
+
+function warp_destination_hospital()
+	return reach_area("TOWN_MAIN") and post_game()
+end
+
+--specific locations
+
+function egg_memories_cars_room()
+	return reach_area("HALL_OF_MEMORIES") and (has_item("water") or has_item("airjump") or has_item("walljump") or has_item("slippers") or whirl_bonk()) and
+		explosives() and ((has_item("airjump") and (itm_hard() or has_item("slippers"))) or (airdash() and ((has_item("slippers") or slide_jump_bunstrike_cancel()) or
+		(adv_vhard() and has_item("walljump") and (amulet() or obs())) or (obs_ext() and airdash() and amulet()))) or (adv_vhard() and airdash() and amulet()) or
+		(adv_ext() and ((has_item("slippers") and slide_jump_bunstrike_cancel() and amulet()) or (has_item("walljump") and amulet()))))
 end
 
 
@@ -1501,6 +1631,7 @@ area_logic = {
 	SPECTRAL_GAP_LEDGE = spectral_gap_ledge,
 	SPECTRAL_WEST_EGG_ROOM = spectral_west_egg_room,
 	SPECTRAL_WEST = spectral_west,
+	FORGOTTEN_CAVE_2 = forgotten_cave_2,
 	BEACH_MAIN = beach_main,
 	BEACH_FOREST_ENTRANCE = beach_forest_entrance,
 	BEACH_UNDERWATER_ENTRANCE = beach_underwater_entrance,
@@ -1616,8 +1747,14 @@ area_logic = {
 	TOWN_SHOP = town_shop,
 	VOLCANIC_MAIN = volcanic_main,
 	VOLCANIC_BEACH_ENTRANCE = volcanic_beach_entrance,
+	HALL_OF_MEMORIES = hall_of_memories,
 	SYSTEM_INTERIOR_MAIN = system_interior_main,
-	PLURKWOOD_MAIN = plurkwood_main
+	SYSINT2_START = sysint2_start,
+	SYSINT2_EGG_ROOM = sysint2_egg_room,
+	SYSINT2_END = sysint2_end,
+	PLURKWOOD_MAIN = plurkwood_main,
+	WARP_DESTINATION_OUTSIDE = warp_destination_outside,
+	WARP_DESTINATION_HOSPITAL = warp_destination_hospital
 }
 
 

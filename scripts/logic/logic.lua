@@ -176,3 +176,21 @@ end
 function five_tile_wall_climb()
     return has_item("airjump") or airdash() or (adv_vhard() and has_item("slippers") and amulet()) or (adv_ext() and has_item("walljump") and amulet())
 end
+
+function bunstrike_zip()
+    return false --not implemented yet
+end
+
+--other options
+
+function event_warp_in_logic()
+    return true --not implemented yet
+end
+
+function post_game()
+    return true --not implemented yet
+end
+
+function halloween()
+    return true --not implemented yet
+end
