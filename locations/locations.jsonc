@@ -4534,7 +4534,7 @@
       "$reach_area|LIBRARY_BOTTOM,bomb,slippers,airjump",
       "$reach_area|LIBRARY_BOTTOM,bomb,slippers,walljump",
       "$reach_area|LIBRARY_BOTTOM,bomb,$slide_jump_bunstrike_cancel,airjump",
-      "$reach_area|LIBRARY_BOTTOM,bomb,$slide_jump_bunstrike_cancel,walljump",
+      "$reach_area|LIBRARY_BOTTOM,bomb,$slide_jump_bunstrike_cancel,walljump"
     ],
     "sections": [
       {
